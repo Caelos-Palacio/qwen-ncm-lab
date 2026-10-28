@@ -1,0 +1,9 @@
+{
+  "wall_seconds": 42.893651607009815,
+  "startup_seconds": 0.7008252840023488,
+  "child_cpu_total_seconds": 189.96770999999998,
+  "child_peak_rss_kib": 927592,
+  "return_code": 0,
+  "binary": "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda16/engine/motor",
+  "model": "/home/carlos/models/Qwen3.5-0.8B-Q8_0.gguf"
+}

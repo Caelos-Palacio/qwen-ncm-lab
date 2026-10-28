@@ -1,0 +1,20 @@
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+Traceback (most recent call last):
+  File "/home/carlos/qwen-ncm-lab/experimentos/fase1-verificacion/diagnosticar.py", line 128, in <module>
+    main()
+  File "/home/carlos/qwen-ncm-lab/experimentos/fase1-verificacion/diagnosticar.py", line 71, in main
+    target = tensor(batch, 'teacher_target', 8)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/carlos/qwen-ncm-lab/experimentos/fase1-verificacion/diagnosticar.py", line 36, in tensor
+    return torch.tensor([encode(row[key], length) for row in rows])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/carlos/qwen-ncm-lab/experimentos/fase1-verificacion/diagnosticar.py", line 36, in <listcomp>
+    return torch.tensor([encode(row[key], length) for row in rows])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/carlos/qwen-ncm-lab/modelo.py", line 13, in encode
+    if len(b)>n:raise ValueError(f'{len(b)} bytes exceeds {n}')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 10 bytes exceeds 8

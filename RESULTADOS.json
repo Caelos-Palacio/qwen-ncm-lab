@@ -1,0 +1,508 @@
+{
+  "metrics": {
+    "teacher": {
+      "all": {
+        "correct": 0.90625,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "seen": {
+        "correct": 0.96875,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.84375,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.9545454545454546,
+          "teacher_agreement": 1.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "-": {
+          "correct": 0.9523809523809523,
+          "teacher_agreement": 1.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "*": {
+          "correct": 0.8095238095238095,
+          "teacher_agreement": 1.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        }
+      }
+    },
+    "kd": {
+      "all": {
+        "correct": 0.015625,
+        "teacher_agreement": 0.015625,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.984375
+      },
+      "seen": {
+        "correct": 0.03125,
+        "teacher_agreement": 0.03125,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.96875
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.045454545454545456,
+          "teacher_agreement": 0.045454545454545456,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9545454545454546
+        },
+        "-": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        }
+      }
+    },
+    "supervised": {
+      "all": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.953125
+      },
+      "seen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.90625
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9545454545454546
+        },
+        "-": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9523809523809523
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9523809523809523
+        }
+      }
+    },
+    "untrained": {
+      "all": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "seen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "-": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        }
+      }
+    },
+    "joint": {
+      "all": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.96875
+      },
+      "seen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9375
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "-": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9523809523809523
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9523809523809523
+        }
+      }
+    },
+    "continued": {
+      "all": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.90625
+      },
+      "seen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.8125
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9090909090909091
+        },
+        "-": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.9523809523809523
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 0.8571428571428571
+        }
+      }
+    },
+    "nearest_train": {
+      "all": {
+        "correct": 0.015625,
+        "teacher_agreement": 0.015625,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "seen": {
+        "correct": 0.03125,
+        "teacher_agreement": 0.03125,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "unseen": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "by_operation": {
+        "+": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "-": {
+          "correct": 0.047619047619047616,
+          "teacher_agreement": 0.047619047619047616,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        },
+        "*": {
+          "correct": 0.0,
+          "teacher_agreement": 0.0,
+          "valid_utf8": 1.0,
+          "strict_integer": 1.0
+        }
+      }
+    }
+  },
+  "costs": {
+    "kd": {
+      "mean_wall_seconds": 0.015594107297602022,
+      "median_wall_seconds": 0.01525482052238658,
+      "mean_cpu_seconds": 0.03118623456249999,
+      "sum_wall_seconds": 0.9980228670465294,
+      "parameters": 1034816,
+      "checkpoint_bytes": 4268662,
+      "p95_wall_seconds": 0.016019679984310642,
+      "batch": 1,
+      "threads": 2,
+      "scope": "prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded"
+    },
+    "supervised": {
+      "mean_wall_seconds": 0.015488423500755744,
+      "median_wall_seconds": 0.015123909004614688,
+      "mean_cpu_seconds": 0.030953670859374893,
+      "sum_wall_seconds": 0.9912591040483676,
+      "parameters": 1034816,
+      "checkpoint_bytes": 4277774,
+      "p95_wall_seconds": 0.016419132996816188,
+      "batch": 1,
+      "threads": 2,
+      "scope": "prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded"
+    },
+    "untrained": {
+      "mean_wall_seconds": 0.015782583267991868,
+      "median_wall_seconds": 0.015272968012141064,
+      "mean_cpu_seconds": 0.03156031217187512,
+      "sum_wall_seconds": 1.0100853291514795,
+      "parameters": 1034816,
+      "checkpoint_bytes": 4277643,
+      "p95_wall_seconds": 0.01672272101859562,
+      "batch": 1,
+      "threads": 2,
+      "scope": "prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded"
+    },
+    "joint": {
+      "mean_wall_seconds": 0.01524895468764953,
+      "median_wall_seconds": 0.015069647008203901,
+      "mean_cpu_seconds": 0.030545130921875163,
+      "sum_wall_seconds": 0.9759331000095699,
+      "parameters": 1034816,
+      "checkpoint_bytes": 4269183,
+      "p95_wall_seconds": 0.0159230180142913,
+      "batch": 1,
+      "threads": 2,
+      "scope": "prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded"
+    },
+    "continued": {
+      "mean_wall_seconds": 0.015586401470955025,
+      "median_wall_seconds": 0.01531669549876824,
+      "mean_cpu_seconds": 0.031158054234375038,
+      "sum_wall_seconds": 0.9975296941411216,
+      "parameters": 1034816,
+      "checkpoint_bytes": 4277643,
+      "p95_wall_seconds": 0.016251093009486794,
+      "batch": 1,
+      "threads": 2,
+      "scope": "prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded"
+    }
+  },
+  "codebook_usage_generated": {
+    "kd": [
+      {
+        "level_length": 1,
+        "used_codes": 4,
+        "codebook_size": 64,
+        "entropy_nats": 1.149988055229187,
+        "dominant_code_fraction": 0.484375
+      },
+      {
+        "level_length": 2,
+        "used_codes": 11,
+        "codebook_size": 64,
+        "entropy_nats": 2.0739989280700684,
+        "dominant_code_fraction": 0.2734375
+      },
+      {
+        "level_length": 4,
+        "used_codes": 20,
+        "codebook_size": 64,
+        "entropy_nats": 2.3710641860961914,
+        "dominant_code_fraction": 0.1875
+      },
+      {
+        "level_length": 8,
+        "used_codes": 37,
+        "codebook_size": 64,
+        "entropy_nats": 2.9707512855529785,
+        "dominant_code_fraction": 0.1640625
+      }
+    ],
+    "supervised": [
+      {
+        "level_length": 1,
+        "used_codes": 4,
+        "codebook_size": 64,
+        "entropy_nats": 1.1938958168029785,
+        "dominant_code_fraction": 0.375
+      },
+      {
+        "level_length": 2,
+        "used_codes": 10,
+        "codebook_size": 64,
+        "entropy_nats": 1.9088724851608276,
+        "dominant_code_fraction": 0.3359375
+      },
+      {
+        "level_length": 4,
+        "used_codes": 16,
+        "codebook_size": 64,
+        "entropy_nats": 2.169506549835205,
+        "dominant_code_fraction": 0.2421875
+      },
+      {
+        "level_length": 8,
+        "used_codes": 30,
+        "codebook_size": 64,
+        "entropy_nats": 2.7410714626312256,
+        "dominant_code_fraction": 0.19921875
+      }
+    ],
+    "untrained": [
+      {
+        "level_length": 1,
+        "used_codes": 1,
+        "codebook_size": 64,
+        "entropy_nats": -0.0,
+        "dominant_code_fraction": 1.0
+      },
+      {
+        "level_length": 2,
+        "used_codes": 2,
+        "codebook_size": 64,
+        "entropy_nats": 0.6931471824645996,
+        "dominant_code_fraction": 0.5
+      },
+      {
+        "level_length": 4,
+        "used_codes": 1,
+        "codebook_size": 64,
+        "entropy_nats": -0.0,
+        "dominant_code_fraction": 1.0
+      },
+      {
+        "level_length": 8,
+        "used_codes": 2,
+        "codebook_size": 64,
+        "entropy_nats": 0.37677016854286194,
+        "dominant_code_fraction": 0.875
+      }
+    ],
+    "joint": [
+      {
+        "level_length": 1,
+        "used_codes": 4,
+        "codebook_size": 64,
+        "entropy_nats": 1.127553939819336,
+        "dominant_code_fraction": 0.5
+      },
+      {
+        "level_length": 2,
+        "used_codes": 11,
+        "codebook_size": 64,
+        "entropy_nats": 2.109072208404541,
+        "dominant_code_fraction": 0.265625
+      },
+      {
+        "level_length": 4,
+        "used_codes": 23,
+        "codebook_size": 64,
+        "entropy_nats": 2.351618766784668,
+        "dominant_code_fraction": 0.203125
+      },
+      {
+        "level_length": 8,
+        "used_codes": 38,
+        "codebook_size": 64,
+        "entropy_nats": 2.978628635406494,
+        "dominant_code_fraction": 0.169921875
+      }
+    ],
+    "continued": [
+      {
+        "level_length": 1,
+        "used_codes": 4,
+        "codebook_size": 64,
+        "entropy_nats": 1.1562566757202148,
+        "dominant_code_fraction": 0.5
+      },
+      {
+        "level_length": 2,
+        "used_codes": 11,
+        "codebook_size": 64,
+        "entropy_nats": 2.0991687774658203,
+        "dominant_code_fraction": 0.2734375
+      },
+      {
+        "level_length": 4,
+        "used_codes": 24,
+        "codebook_size": 64,
+        "entropy_nats": 2.339632034301758,
+        "dominant_code_fraction": 0.22265625
+      },
+      {
+        "level_length": 8,
+        "used_codes": 38,
+        "codebook_size": 64,
+        "entropy_nats": 3.0207791328430176,
+        "dominant_code_fraction": 0.171875
+      }
+    ]
+  },
+  "tokenizer_reconstruction_only": {
+    "sequences": 64,
+    "full_byte_exact": 1.0,
+    "nonpad_char_accuracy": 1.0
+  },
+  "process_peak_rss_kib": 307060,
+  "test_questions": 64,
+  "test_selection_before_teacher": true,
+  "teacher_cost_file": "teacher-test-cost.json",
+  "scope": "restricted integer arithmetic only; 8-byte output, not a chat model; CPU comparison with Qwen differs in parameter count and runtime"
+}

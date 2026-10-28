@@ -1,0 +1,262 @@
+{
+  "utc": "2026-10-20T16:07:22.853687+00:00",
+  "scope": "sum of non-overlapping measured process runs, includes model loading/logging; excludes research/coding/installation/idle gaps and runner CPU overhead; do not add tokenizer/gen subtotals twice",
+  "core_phases": [
+    "teacher-train-dev",
+    "fit",
+    "joint-fit",
+    "teacher-test",
+    "evaluacion"
+  ],
+  "core_sum_wall_seconds": 865.7173799670127,
+  "core_sum_cpu_seconds": 2179.6381140000003,
+  "including_two_cli_demos_wall_seconds": 870.5389595930174,
+  "including_two_cli_demos_cpu_seconds": 2184.436443,
+  "overlapping_runs": [],
+  "phase_profiles": [
+    {
+      "phase": "teacher-train-dev",
+      "started_utc": "2026-10-20T15:48:15.365227+00:00",
+      "ended_utc": "2026-10-20T15:50:46.683451+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/teacher.py",
+        "train",
+        "dev"
+      ],
+      "return_code": 0,
+      "wall_seconds": 151.31881626800168,
+      "child_user_cpu_seconds": 650.161887,
+      "child_system_cpu_seconds": 12.107552,
+      "child_peak_rss_kib_rusage": 928120,
+      "sampled_tree_peak_rss_kib": 947076,
+      "sampled_tree_peak_swap_kib": 87796,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1780152,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11223860
+      },
+      "machine_after": {
+        "MemAvailable_kib": 2168352,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 10864248
+      },
+      "log": "/home/carlos/qwen-ncm-lab/teacher-train-dev.log",
+      "protocol_sha256": "3991828991e9cc9b5c178403fe0868aaabfc371b0af15add5b66ca949cfbdbbc",
+      "seed": 170020
+    },
+    {
+      "phase": "fit",
+      "started_utc": "2026-10-20T15:52:12.436458+00:00",
+      "ended_utc": "2026-10-20T15:57:49.432555+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/train.py"
+      ],
+      "return_code": -15,
+      "wall_seconds": 336.9962822520174,
+      "child_user_cpu_seconds": 657.4965480000001,
+      "child_system_cpu_seconds": 11.968390000000001,
+      "child_peak_rss_kib_rusage": 534292,
+      "sampled_tree_peak_rss_kib": 535096,
+      "sampled_tree_peak_swap_kib": 85696,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1974452,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11081972
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1757692,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11304288
+      },
+      "log": "/home/carlos/qwen-ncm-lab/fit.log",
+      "protocol_sha256": "3d341e100d3a4ec30c49fb58a7094ca131fd6fd94ce037cd8ea72829ff847090",
+      "seed": 170020
+    },
+    {
+      "phase": "joint-fit",
+      "started_utc": "2026-10-20T15:58:50.409442+00:00",
+      "ended_utc": "2026-10-20T16:04:15.351587+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/continuar_joint.py"
+      ],
+      "return_code": 0,
+      "wall_seconds": 324.94247542100493,
+      "child_user_cpu_seconds": 639.658617,
+      "child_system_cpu_seconds": 4.090396,
+      "child_peak_rss_kib_rusage": 611992,
+      "sampled_tree_peak_rss_kib": 612820,
+      "sampled_tree_peak_swap_kib": 202360,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1744256,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11326912
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1846592,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11245588
+      },
+      "log": "/home/carlos/qwen-ncm-lab/joint-fit.log",
+      "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+      "seed": 170020
+    },
+    {
+      "phase": "teacher-test",
+      "started_utc": "2026-10-20T16:04:16.423020+00:00",
+      "ended_utc": "2026-10-20T16:05:00.445703+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/teacher.py",
+        "test"
+      ],
+      "return_code": 0,
+      "wall_seconds": 44.022726088995114,
+      "child_user_cpu_seconds": 187.371073,
+      "child_system_cpu_seconds": 3.597558,
+      "child_peak_rss_kib_rusage": 927592,
+      "sampled_tree_peak_rss_kib": 947552,
+      "sampled_tree_peak_swap_kib": 0,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1813736,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11264072
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1715856,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11262752
+      },
+      "log": "/home/carlos/qwen-ncm-lab/teacher-test.log",
+      "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+      "seed": 170020
+    },
+    {
+      "phase": "evaluacion",
+      "started_utc": "2026-10-20T16:05:00.497578+00:00",
+      "ended_utc": "2026-10-20T16:05:08.934612+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/evaluar.py"
+      ],
+      "return_code": 0,
+      "wall_seconds": 8.437079936993541,
+      "child_user_cpu_seconds": 12.773966,
+      "child_system_cpu_seconds": 0.41212699999999997,
+      "child_peak_rss_kib_rusage": 307060,
+      "sampled_tree_peak_rss_kib": 308272,
+      "sampled_tree_peak_swap_kib": 0,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1724416,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11262752
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1757712,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11263052
+      },
+      "log": "/home/carlos/qwen-ncm-lab/evaluacion.log",
+      "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+      "seed": 170020
+    },
+    {
+      "phase": "demo",
+      "started_utc": "2026-10-20T16:05:48.475661+00:00",
+      "ended_utc": "2026-10-20T16:05:50.884470+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/inferir.py",
+        "Compute 7 + 9. Integer only.",
+        "--model",
+        "joint"
+      ],
+      "return_code": 0,
+      "wall_seconds": 2.40896254798281,
+      "child_user_cpu_seconds": 2.157015,
+      "child_system_cpu_seconds": 0.243888,
+      "child_peak_rss_kib_rusage": 293240,
+      "sampled_tree_peak_rss_kib": 293612,
+      "sampled_tree_peak_swap_kib": 0,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1746772,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11271684
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1743452,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11271804
+      },
+      "log": "/home/carlos/qwen-ncm-lab/demo.log",
+      "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+      "seed": 170020
+    },
+    {
+      "phase": "demo-train",
+      "started_utc": "2026-10-20T16:06:18.167773+00:00",
+      "ended_utc": "2026-10-20T16:06:20.580348+00:00",
+      "command": [
+        "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+        "/home/carlos/qwen-ncm-lab/inferir.py",
+        "Compute 15 * 26. Integer only.",
+        "--model",
+        "joint"
+      ],
+      "return_code": 0,
+      "wall_seconds": 2.412617078021867,
+      "child_user_cpu_seconds": 2.19714,
+      "child_system_cpu_seconds": 0.200286,
+      "child_peak_rss_kib_rusage": 293052,
+      "sampled_tree_peak_rss_kib": 293668,
+      "sampled_tree_peak_swap_kib": 0,
+      "rss_sampling_seconds": 0.2,
+      "machine_before": {
+        "MemAvailable_kib": 1745504,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11265912
+      },
+      "machine_after": {
+        "MemAvailable_kib": 1749696,
+        "SwapTotal_kib": 22238336,
+        "SwapFree_kib": 11266052
+      },
+      "log": "/home/carlos/qwen-ncm-lab/demo-train.log",
+      "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+      "seed": 170020
+    }
+  ],
+  "parameters": {
+    "tokenizer": 199296,
+    "generator": 835520,
+    "total": 1034816,
+    "joint_trainable": 902016
+  },
+  "teacher_queries": 288,
+  "teacher_prompt_tokens": 13379,
+  "teacher_generated_tokens": 634,
+  "checkpoint_bytes": {
+    "joint.pt": 4269183,
+    "untrained.pt": 4277643,
+    "kd.pt": 4268662,
+    "continued.pt": 4277643,
+    "tokenizer.pt": 884730,
+    "supervised.pt": 4277774
+  },
+  "frozen_cache_bytes": {
+    "CACHE-kd.pt": 3281767,
+    "CACHE-supervised.pt": 3281847
+  },
+  "venv_disk_du_bytes": 867856241,
+  "teacher_model": "original GGUF outside project, not duplicated",
+  "measured_power_or_flops": false,
+  "planned_interruption": "fit returncode\u221215 documented USER_PROCESS_EFFICIENCY; all subsequent runs exit0"
+}

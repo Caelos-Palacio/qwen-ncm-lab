@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "*:15:26",
+    "op": "*",
+    "a": 15,
+    "b": 26,
+    "answer": "390",
+    "template": "seen",
+    "prompt": "Compute 15 * 26. Integer only."
+  },
+  {
+    "id": "-:23:6",
+    "op": "-",
+    "a": 23,
+    "b": 6,
+    "answer": "17",
+    "template": "seen",
+    "prompt": "Compute 23 - 6. Integer only."
+  },
+  {
+    "id": "*:2:20",
+    "op": "*",
+    "a": 2,
+    "b": 20,
+    "answer": "40",
+    "template": "seen",
+    "prompt": "Compute 2 * 20. Integer only."
+  },
+  {
+    "id": "+:8:14",
+    "op": "+",
+    "a": 8,
+    "b": 14,
+    "answer": "22",
+    "template": "seen",
+    "prompt": "Compute 8 + 14. Integer only."
+  },
+  {
+    "id": "*:1:18",
+    "op": "*",
+    "a": 1,
+    "b": 18,
+    "answer": "18",
+    "template": "seen",
+    "prompt": "Compute 1 * 18. Integer only."
+  },
+  {
+    "id": "+:3:26",
+    "op": "+",
+    "a": 3,
+    "b": 26,
+    "answer": "29",
+    "template": "seen",
+    "prompt": "Compute 3 + 26. Integer only."
+  },
+  {
+    "id": "*:3:7",
+    "op": "*",
+    "a": 3,
+    "b": 7,
+    "answer": "21",
+    "template": "seen",
+    "prompt": "Compute 3 * 7. Integer only."
+  },
+  {
+    "id": "-:19:15",
+    "op": "-",
+    "a": 19,
+    "b": 15,
+    "answer": "4",
+    "template": "seen",
+    "prompt": "Compute 19 - 15. Integer only."
+  },
+  {
+    "id": "-:16:29",
+    "op": "-",
+    "a": 16,
+    "b": 29,
+    "answer": "-13",
+    "template": "seen",
+    "prompt": "Compute 16 - 29. Integer only."
+  },
+  {
+    "id": "+:12:27",
+    "op": "+",
+    "a": 12,
+    "b": 27,
+    "answer": "39",
+    "template": "seen",
+    "prompt": "Compute 12 + 27. Integer only."
+  },
+  {
+    "id": "*:19:20",
+    "op": "*",
+    "a": 19,
+    "b": 20,
+    "answer": "380",
+    "template": "seen",
+    "prompt": "Compute 19 * 20. Integer only."
+  },
+  {
+    "id": "+:1:3",
+    "op": "+",
+    "a": 1,
+    "b": 3,
+    "answer": "4",
+    "template": "seen",
+    "prompt": "Compute 1 + 3. Integer only."
+  },
+  {
+    "id": "-:24:12",
+    "op": "-",
+    "a": 24,
+    "b": 12,
+    "answer": "12",
+    "template": "seen",
+    "prompt": "Compute 24 - 12. Integer only."
+  },
+  {
+    "id": "*:7:16",
+    "op": "*",
+    "a": 7,
+    "b": 16,
+    "answer": "112",
+    "template": "seen",
+    "prompt": "Compute 7 * 16. Integer only."
+  },
+  {
+    "id": "-:15:4",
+    "op": "-",
+    "a": 15,
+    "b": 4,
+    "answer": "11",
+    "template": "seen",
+    "prompt": "Compute 15 - 4. Integer only."
+  },
+  {
+    "id": "+:12:26",
+    "op": "+",
+    "a": 12,
+    "b": 26,
+    "answer": "38",
+    "template": "seen",
+    "prompt": "Compute 12 + 26. Integer only."
+  },
+  {
+    "id": "*:16:25",
+    "op": "*",
+    "a": 16,
+    "b": 25,
+    "answer": "400",
+    "template": "seen",
+    "prompt": "Compute 16 * 25. Integer only."
+  },
+  {
+    "id": "*:11:21",
+    "op": "*",
+    "a": 11,
+    "b": 21,
+    "answer": "231",
+    "template": "seen",
+    "prompt": "Compute 11 * 21. Integer only."
+  },
+  {
+    "id": "-:2:17",
+    "op": "-",
+    "a": 2,
+    "b": 17,
+    "answer": "-15",
+    "template": "seen",
+    "prompt": "Compute 2 - 17. Integer only."
+  },
+  {
+    "id": "+:0:20",
+    "op": "+",
+    "a": 0,
+    "b": 20,
+    "answer": "20",
+    "template": "seen",
+    "prompt": "Compute 0 + 20. Integer only."
+  },
+  {
+    "id": "-:30:4",
+    "op": "-",
+    "a": 30,
+    "b": 4,
+    "answer": "26",
+    "template": "seen",
+    "prompt": "Compute 30 - 4. Integer only."
+  },
+  {
+    "id": "*:16:19",
+    "op": "*",
+    "a": 16,
+    "b": 19,
+    "answer": "304",
+    "template": "seen",
+    "prompt": "Compute 16 * 19. Integer only."
+  },
+  {
+    "id": "+:3:3",
+    "op": "+",
+    "a": 3,
+    "b": 3,
+    "answer": "6",
+    "template": "seen",
+    "prompt": "Compute 3 + 3. Integer only."
+  },
+  {
+    "id": "+:4:17",
+    "op": "+",
+    "a": 4,
+    "b": 17,
+    "answer": "21",
+    "template": "seen",
+    "prompt": "Compute 4 + 17. Integer only."
+  },
+  {
+    "id": "+:27:27",
+    "op": "+",
+    "a": 27,
+    "b": 27,
+    "answer": "54",
+    "template": "seen",
+    "prompt": "Compute 27 + 27. Integer only."
+  },
+  {
+    "id": "-:19:18",
+    "op": "-",
+    "a": 19,
+    "b": 18,
+    "answer": "1",
+    "template": "seen",
+    "prompt": "Compute 19 - 18. Integer only."
+  },
+  {
+    "id": "+:3:7",
+    "op": "+",
+    "a": 3,
+    "b": 7,
+    "answer": "10",
+    "template": "seen",
+    "prompt": "Compute 3 + 7. Integer only."
+  },
+  {
+    "id": "-:19:2",
+    "op": "-",
+    "a": 19,
+    "b": 2,
+    "answer": "17",
+    "template": "seen",
+    "prompt": "Compute 19 - 2. Integer only."
+  },
+  {
+    "id": "-:10:28",
+    "op": "-",
+    "a": 10,
+    "b": 28,
+    "answer": "-18",
+    "template": "seen",
+    "prompt": "Compute 10 - 28. Integer only."
+  },
+  {
+    "id": "*:19:24",
+    "op": "*",
+    "a": 19,
+    "b": 24,
+    "answer": "456",
+    "template": "seen",
+    "prompt": "Compute 19 * 24. Integer only."
+  },
+  {
+    "id": "+:21:27",
+    "op": "+",
+    "a": 21,
+    "b": 27,
+    "answer": "48",
+    "template": "seen",
+    "prompt": "Compute 21 + 27. Integer only."
+  },
+  {
+    "id": "+:28:28",
+    "op": "+",
+    "a": 28,
+    "b": 28,
+    "answer": "56",
+    "template": "seen",
+    "prompt": "Compute 28 + 28. Integer only."
+  },
+  {
+    "id": "*:12:25",
+    "op": "*",
+    "a": 12,
+    "b": 25,
+    "answer": "300",
+    "template": "seen",
+    "prompt": "Compute 12 * 25. Integer only."
+  },
+  {
+    "id": "+:2:10",
+    "op": "+",
+    "a": 2,
+    "b": 10,
+    "answer": "12",
+    "template": "seen",
+    "prompt": "Compute 2 + 10. Integer only."
+  },
+  {
+    "id": "*:2:19",
+    "op": "*",
+    "a": 2,
+    "b": 19,
+    "answer": "38",
+    "template": "seen",
+    "prompt": "Compute 2 * 19. Integer only."
+  },
+  {
+    "id": "+:7:11",
+    "op": "+",
+    "a": 7,
+    "b": 11,
+    "answer": "18",
+    "template": "seen",
+    "prompt": "Compute 7 + 11. Integer only."
+  },
+  {
+    "id": "-:2:19",
+    "op": "-",
+    "a": 2,
+    "b": 19,
+    "answer": "-17",
+    "template": "seen",
+    "prompt": "Compute 2 - 19. Integer only."
+  },
+  {
+    "id": "-:18:14",
+    "op": "-",
+    "a": 18,
+    "b": 14,
+    "answer": "4",
+    "template": "seen",
+    "prompt": "Compute 18 - 14. Integer only."
+  },
+  {
+    "id": "-:12:12",
+    "op": "-",
+    "a": 12,
+    "b": 12,
+    "answer": "0",
+    "template": "seen",
+    "prompt": "Compute 12 - 12. Integer only."
+  },
+  {
+    "id": "-:9:17",
+    "op": "-",
+    "a": 9,
+    "b": 17,
+    "answer": "-8",
+    "template": "seen",
+    "prompt": "Compute 9 - 17. Integer only."
+  },
+  {
+    "id": "+:5:22",
+    "op": "+",
+    "a": 5,
+    "b": 22,
+    "answer": "27",
+    "template": "seen",
+    "prompt": "Compute 5 + 22. Integer only."
+  },
+  {
+    "id": "-:29:9",
+    "op": "-",
+    "a": 29,
+    "b": 9,
+    "answer": "20",
+    "template": "seen",
+    "prompt": "Compute 29 - 9. Integer only."
+  },
+  {
+    "id": "-:13:12",
+    "op": "-",
+    "a": 13,
+    "b": 12,
+    "answer": "1",
+    "template": "seen",
+    "prompt": "Compute 13 - 12. Integer only."
+  },
+  {
+    "id": "-:21:13",
+    "op": "-",
+    "a": 21,
+    "b": 13,
+    "answer": "8",
+    "template": "seen",
+    "prompt": "Compute 21 - 13. Integer only."
+  },
+  {
+    "id": "-:29:10",
+    "op": "-",
+    "a": 29,
+    "b": 10,
+    "answer": "19",
+    "template": "seen",
+    "prompt": "Compute 29 - 10. Integer only."
+  },
+  {
+    "id": "-:9:28",
+    "op": "-",
+    "a": 9,
+    "b": 28,
+    "answer": "-19",
+    "template": "seen",
+    "prompt": "Compute 9 - 28. Integer only."
+  },
+  {
+    "id": "*:14:16",
+    "op": "*",
+    "a": 14,
+    "b": 16,
+    "answer": "224",
+    "template": "seen",
+    "prompt": "Compute 14 * 16. Integer only."
+  },
+  {
+    "id": "*:14:26",
+    "op": "*",
+    "a": 14,
+    "b": 26,
+    "answer": "364",
+    "template": "seen",
+    "prompt": "Compute 14 * 26. Integer only."
+  },
+  {
+    "id": "-:15:21",
+    "op": "-",
+    "a": 15,
+    "b": 21,
+    "answer": "-6",
+    "template": "seen",
+    "prompt": "Compute 15 - 21. Integer only."
+  },
+  {
+    "id": "+:10:28",
+    "op": "+",
+    "a": 10,
+    "b": 28,
+    "answer": "38",
+    "template": "seen",
+    "prompt": "Compute 10 + 28. Integer only."
+  },
+  {
+    "id": "*:15:15",
+    "op": "*",
+    "a": 15,
+    "b": 15,
+    "answer": "225",
+    "template": "seen",
+    "prompt": "Compute 15 * 15. Integer only."
+  },
+  {
+    "id": "+:29:30",
+    "op": "+",
+    "a": 29,
+    "b": 30,
+    "answer": "59",
+    "template": "seen",
+    "prompt": "Compute 29 + 30. Integer only."
+  },
+  {
+    "id": "+:5:7",
+    "op": "+",
+    "a": 5,
+    "b": 7,
+    "answer": "12",
+    "template": "seen",
+    "prompt": "Compute 5 + 7. Integer only."
+  },
+  {
+    "id": "+:22:28",
+    "op": "+",
+    "a": 22,
+    "b": 28,
+    "answer": "50",
+    "template": "seen",
+    "prompt": "Compute 22 + 28. Integer only."
+  },
+  {
+    "id": "*:7:12",
+    "op": "*",
+    "a": 7,
+    "b": 12,
+    "answer": "84",
+    "template": "seen",
+    "prompt": "Compute 7 * 12. Integer only."
+  },
+  {
+    "id": "-:5:24",
+    "op": "-",
+    "a": 5,
+    "b": 24,
+    "answer": "-19",
+    "template": "seen",
+    "prompt": "Compute 5 - 24. Integer only."
+  },
+  {
+    "id": "-:6:24",
+    "op": "-",
+    "a": 6,
+    "b": 24,
+    "answer": "-18",
+    "template": "seen",
+    "prompt": "Compute 6 - 24. Integer only."
+  },
+  {
+    "id": "*:8:17",
+    "op": "*",
+    "a": 8,
+    "b": 17,
+    "answer": "136",
+    "template": "seen",
+    "prompt": "Compute 8 * 17. Integer only."
+  },
+  {
+    "id": "+:4:13",
+    "op": "+",
+    "a": 4,
+    "b": 13,
+    "answer": "17",
+    "template": "seen",
+    "prompt": "Compute 4 + 13. Integer only."
+  },
+  {
+    "id": "*:7:19",
+    "op": "*",
+    "a": 7,
+    "b": 19,
+    "answer": "133",
+    "template": "seen",
+    "prompt": "Compute 7 * 19. Integer only."
+  },
+  {
+    "id": "-:9:11",
+    "op": "-",
+    "a": 9,
+    "b": 11,
+    "answer": "-2",
+    "template": "seen",
+    "prompt": "Compute 9 - 11. Integer only."
+  },
+  {
+    "id": "*:8:8",
+    "op": "*",
+    "a": 8,
+    "b": 8,
+    "answer": "64",
+    "template": "seen",
+    "prompt": "Compute 8 * 8. Integer only."
+  },
+  {
+    "id": "-:25:3",
+    "op": "-",
+    "a": 25,
+    "b": 3,
+    "answer": "22",
+    "template": "seen",
+    "prompt": "Compute 25 - 3. Integer only."
+  },
+  {
+    "id": "-:0:4",
+    "op": "-",
+    "a": 0,
+    "b": 4,
+    "answer": "-4",
+    "template": "seen",
+    "prompt": "Compute 0 - 4. Integer only."
+  },
+  {
+    "id": "+:9:20",
+    "op": "+",
+    "a": 9,
+    "b": 20,
+    "answer": "29",
+    "template": "seen",
+    "prompt": "Compute 9 + 20. Integer only."
+  },
+  {
+    "id": "-:2:8",
+    "op": "-",
+    "a": 2,
+    "b": 8,
+    "answer": "-6",
+    "template": "seen",
+    "prompt": "Compute 2 - 8. Integer only."
+  },
+  {
+    "id": "+:6:18",
+    "op": "+",
+    "a": 6,
+    "b": 18,
+    "answer": "24",
+    "template": "seen",
+    "prompt": "Compute 6 + 18. Integer only."
+  },
+  {
+    "id": "-:16:8",
+    "op": "-",
+    "a": 16,
+    "b": 8,
+    "answer": "8",
+    "template": "seen",
+    "prompt": "Compute 16 - 8. Integer only."
+  },
+  {
+    "id": "*:6:18",
+    "op": "*",
+    "a": 6,
+    "b": 18,
+    "answer": "108",
+    "template": "seen",
+    "prompt": "Compute 6 * 18. Integer only."
+  },
+  {
+    "id": "+:1:26",
+    "op": "+",
+    "a": 1,
+    "b": 26,
+    "answer": "27",
+    "template": "seen",
+    "prompt": "Compute 1 + 26. Integer only."
+  },
+  {
+    "id": "-:5:18",
+    "op": "-",
+    "a": 5,
+    "b": 18,
+    "answer": "-13",
+    "template": "seen",
+    "prompt": "Compute 5 - 18. Integer only."
+  },
+  {
+    "id": "*:5:28",
+    "op": "*",
+    "a": 5,
+    "b": 28,
+    "answer": "140",
+    "template": "seen",
+    "prompt": "Compute 5 * 28. Integer only."
+  },
+  {
+    "id": "+:4:23",
+    "op": "+",
+    "a": 4,
+    "b": 23,
+    "answer": "27",
+    "template": "seen",
+    "prompt": "Compute 4 + 23. Integer only."
+  },
+  {
+    "id": "+:6:17",
+    "op": "+",
+    "a": 6,
+    "b": 17,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 6 + 17. Integer only."
+  },
+  {
+    "id": "*:16:21",
+    "op": "*",
+    "a": 16,
+    "b": 21,
+    "answer": "336",
+    "template": "seen",
+    "prompt": "Compute 16 * 21. Integer only."
+  },
+  {
+    "id": "-:6:0",
+    "op": "-",
+    "a": 6,
+    "b": 0,
+    "answer": "6",
+    "template": "seen",
+    "prompt": "Compute 6 - 0. Integer only."
+  },
+  {
+    "id": "+:14:17",
+    "op": "+",
+    "a": 14,
+    "b": 17,
+    "answer": "31",
+    "template": "seen",
+    "prompt": "Compute 14 + 17. Integer only."
+  },
+  {
+    "id": "-:13:10",
+    "op": "-",
+    "a": 13,
+    "b": 10,
+    "answer": "3",
+    "template": "seen",
+    "prompt": "Compute 13 - 10. Integer only."
+  },
+  {
+    "id": "+:13:14",
+    "op": "+",
+    "a": 13,
+    "b": 14,
+    "answer": "27",
+    "template": "seen",
+    "prompt": "Compute 13 + 14. Integer only."
+  },
+  {
+    "id": "-:29:14",
+    "op": "-",
+    "a": 29,
+    "b": 14,
+    "answer": "15",
+    "template": "seen",
+    "prompt": "Compute 29 - 14. Integer only."
+  },
+  {
+    "id": "-:12:0",
+    "op": "-",
+    "a": 12,
+    "b": 0,
+    "answer": "12",
+    "template": "seen",
+    "prompt": "Compute 12 - 0. Integer only."
+  },
+  {
+    "id": "*:14:14",
+    "op": "*",
+    "a": 14,
+    "b": 14,
+    "answer": "196",
+    "template": "seen",
+    "prompt": "Compute 14 * 14. Integer only."
+  },
+  {
+    "id": "+:6:13",
+    "op": "+",
+    "a": 6,
+    "b": 13,
+    "answer": "19",
+    "template": "seen",
+    "prompt": "Compute 6 + 13. Integer only."
+  },
+  {
+    "id": "*:25:26",
+    "op": "*",
+    "a": 25,
+    "b": 26,
+    "answer": "650",
+    "template": "seen",
+    "prompt": "Compute 25 * 26. Integer only."
+  },
+  {
+    "id": "*:20:20",
+    "op": "*",
+    "a": 20,
+    "b": 20,
+    "answer": "400",
+    "template": "seen",
+    "prompt": "Compute 20 * 20. Integer only."
+  },
+  {
+    "id": "+:9:27",
+    "op": "+",
+    "a": 9,
+    "b": 27,
+    "answer": "36",
+    "template": "seen",
+    "prompt": "Compute 9 + 27. Integer only."
+  },
+  {
+    "id": "-:14:8",
+    "op": "-",
+    "a": 14,
+    "b": 8,
+    "answer": "6",
+    "template": "seen",
+    "prompt": "Compute 14 - 8. Integer only."
+  },
+  {
+    "id": "+:7:7",
+    "op": "+",
+    "a": 7,
+    "b": 7,
+    "answer": "14",
+    "template": "seen",
+    "prompt": "Compute 7 + 7. Integer only."
+  },
+  {
+    "id": "+:12:14",
+    "op": "+",
+    "a": 12,
+    "b": 14,
+    "answer": "26",
+    "template": "seen",
+    "prompt": "Compute 12 + 14. Integer only."
+  },
+  {
+    "id": "+:20:28",
+    "op": "+",
+    "a": 20,
+    "b": 28,
+    "answer": "48",
+    "template": "seen",
+    "prompt": "Compute 20 + 28. Integer only."
+  },
+  {
+    "id": "-:13:17",
+    "op": "-",
+    "a": 13,
+    "b": 17,
+    "answer": "-4",
+    "template": "seen",
+    "prompt": "Compute 13 - 17. Integer only."
+  },
+  {
+    "id": "-:11:7",
+    "op": "-",
+    "a": 11,
+    "b": 7,
+    "answer": "4",
+    "template": "seen",
+    "prompt": "Compute 11 - 7. Integer only."
+  },
+  {
+    "id": "*:5:12",
+    "op": "*",
+    "a": 5,
+    "b": 12,
+    "answer": "60",
+    "template": "seen",
+    "prompt": "Compute 5 * 12. Integer only."
+  },
+  {
+    "id": "*:4:14",
+    "op": "*",
+    "a": 4,
+    "b": 14,
+    "answer": "56",
+    "template": "seen",
+    "prompt": "Compute 4 * 14. Integer only."
+  },
+  {
+    "id": "*:15:21",
+    "op": "*",
+    "a": 15,
+    "b": 21,
+    "answer": "315",
+    "template": "seen",
+    "prompt": "Compute 15 * 21. Integer only."
+  },
+  {
+    "id": "*:27:30",
+    "op": "*",
+    "a": 27,
+    "b": 30,
+    "answer": "810",
+    "template": "seen",
+    "prompt": "Compute 27 * 30. Integer only."
+  },
+  {
+    "id": "+:4:24",
+    "op": "+",
+    "a": 4,
+    "b": 24,
+    "answer": "28",
+    "template": "seen",
+    "prompt": "Compute 4 + 24. Integer only."
+  },
+  {
+    "id": "*:14:27",
+    "op": "*",
+    "a": 14,
+    "b": 27,
+    "answer": "378",
+    "template": "seen",
+    "prompt": "Compute 14 * 27. Integer only."
+  },
+  {
+    "id": "-:2:4",
+    "op": "-",
+    "a": 2,
+    "b": 4,
+    "answer": "-2",
+    "template": "seen",
+    "prompt": "Compute 2 - 4. Integer only."
+  },
+  {
+    "id": "+:19:21",
+    "op": "+",
+    "a": 19,
+    "b": 21,
+    "answer": "40",
+    "template": "seen",
+    "prompt": "Compute 19 + 21. Integer only."
+  },
+  {
+    "id": "-:27:14",
+    "op": "-",
+    "a": 27,
+    "b": 14,
+    "answer": "13",
+    "template": "seen",
+    "prompt": "Compute 27 - 14. Integer only."
+  },
+  {
+    "id": "+:4:22",
+    "op": "+",
+    "a": 4,
+    "b": 22,
+    "answer": "26",
+    "template": "seen",
+    "prompt": "Compute 4 + 22. Integer only."
+  },
+  {
+    "id": "*:2:14",
+    "op": "*",
+    "a": 2,
+    "b": 14,
+    "answer": "28",
+    "template": "seen",
+    "prompt": "Compute 2 * 14. Integer only."
+  },
+  {
+    "id": "+:10:13",
+    "op": "+",
+    "a": 10,
+    "b": 13,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 10 + 13. Integer only."
+  },
+  {
+    "id": "*:10:11",
+    "op": "*",
+    "a": 10,
+    "b": 11,
+    "answer": "110",
+    "template": "seen",
+    "prompt": "Compute 10 * 11. Integer only."
+  },
+  {
+    "id": "+:11:20",
+    "op": "+",
+    "a": 11,
+    "b": 20,
+    "answer": "31",
+    "template": "seen",
+    "prompt": "Compute 11 + 20. Integer only."
+  },
+  {
+    "id": "*:2:17",
+    "op": "*",
+    "a": 2,
+    "b": 17,
+    "answer": "34",
+    "template": "seen",
+    "prompt": "Compute 2 * 17. Integer only."
+  },
+  {
+    "id": "*:12:26",
+    "op": "*",
+    "a": 12,
+    "b": 26,
+    "answer": "312",
+    "template": "seen",
+    "prompt": "Compute 12 * 26. Integer only."
+  },
+  {
+    "id": "*:20:22",
+    "op": "*",
+    "a": 20,
+    "b": 22,
+    "answer": "440",
+    "template": "seen",
+    "prompt": "Compute 20 * 22. Integer only."
+  },
+  {
+    "id": "*:22:22",
+    "op": "*",
+    "a": 22,
+    "b": 22,
+    "answer": "484",
+    "template": "seen",
+    "prompt": "Compute 22 * 22. Integer only."
+  },
+  {
+    "id": "-:30:29",
+    "op": "-",
+    "a": 30,
+    "b": 29,
+    "answer": "1",
+    "template": "seen",
+    "prompt": "Compute 30 - 29. Integer only."
+  },
+  {
+    "id": "*:1:22",
+    "op": "*",
+    "a": 1,
+    "b": 22,
+    "answer": "22",
+    "template": "seen",
+    "prompt": "Compute 1 * 22. Integer only."
+  },
+  {
+    "id": "-:22:20",
+    "op": "-",
+    "a": 22,
+    "b": 20,
+    "answer": "2",
+    "template": "seen",
+    "prompt": "Compute 22 - 20. Integer only."
+  },
+  {
+    "id": "*:26:27",
+    "op": "*",
+    "a": 26,
+    "b": 27,
+    "answer": "702",
+    "template": "seen",
+    "prompt": "Compute 26 * 27. Integer only."
+  },
+  {
+    "id": "*:17:25",
+    "op": "*",
+    "a": 17,
+    "b": 25,
+    "answer": "425",
+    "template": "seen",
+    "prompt": "Compute 17 * 25. Integer only."
+  },
+  {
+    "id": "-:0:3",
+    "op": "-",
+    "a": 0,
+    "b": 3,
+    "answer": "-3",
+    "template": "seen",
+    "prompt": "Compute 0 - 3. Integer only."
+  },
+  {
+    "id": "-:5:6",
+    "op": "-",
+    "a": 5,
+    "b": 6,
+    "answer": "-1",
+    "template": "seen",
+    "prompt": "Compute 5 - 6. Integer only."
+  },
+  {
+    "id": "-:14:4",
+    "op": "-",
+    "a": 14,
+    "b": 4,
+    "answer": "10",
+    "template": "seen",
+    "prompt": "Compute 14 - 4. Integer only."
+  },
+  {
+    "id": "-:19:16",
+    "op": "-",
+    "a": 19,
+    "b": 16,
+    "answer": "3",
+    "template": "seen",
+    "prompt": "Compute 19 - 16. Integer only."
+  },
+  {
+    "id": "-:11:19",
+    "op": "-",
+    "a": 11,
+    "b": 19,
+    "answer": "-8",
+    "template": "seen",
+    "prompt": "Compute 11 - 19. Integer only."
+  },
+  {
+    "id": "-:0:16",
+    "op": "-",
+    "a": 0,
+    "b": 16,
+    "answer": "-16",
+    "template": "seen",
+    "prompt": "Compute 0 - 16. Integer only."
+  },
+  {
+    "id": "*:4:19",
+    "op": "*",
+    "a": 4,
+    "b": 19,
+    "answer": "76",
+    "template": "seen",
+    "prompt": "Compute 4 * 19. Integer only."
+  },
+  {
+    "id": "-:18:0",
+    "op": "-",
+    "a": 18,
+    "b": 0,
+    "answer": "18",
+    "template": "seen",
+    "prompt": "Compute 18 - 0. Integer only."
+  },
+  {
+    "id": "+:17:29",
+    "op": "+",
+    "a": 17,
+    "b": 29,
+    "answer": "46",
+    "template": "seen",
+    "prompt": "Compute 17 + 29. Integer only."
+  },
+  {
+    "id": "+:3:11",
+    "op": "+",
+    "a": 3,
+    "b": 11,
+    "answer": "14",
+    "template": "seen",
+    "prompt": "Compute 3 + 11. Integer only."
+  },
+  {
+    "id": "+:10:18",
+    "op": "+",
+    "a": 10,
+    "b": 18,
+    "answer": "28",
+    "template": "seen",
+    "prompt": "Compute 10 + 18. Integer only."
+  },
+  {
+    "id": "-:26:17",
+    "op": "-",
+    "a": 26,
+    "b": 17,
+    "answer": "9",
+    "template": "seen",
+    "prompt": "Compute 26 - 17. Integer only."
+  },
+  {
+    "id": "-:24:14",
+    "op": "-",
+    "a": 24,
+    "b": 14,
+    "answer": "10",
+    "template": "seen",
+    "prompt": "Compute 24 - 14. Integer only."
+  },
+  {
+    "id": "+:7:16",
+    "op": "+",
+    "a": 7,
+    "b": 16,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 7 + 16. Integer only."
+  },
+  {
+    "id": "-:24:5",
+    "op": "-",
+    "a": 24,
+    "b": 5,
+    "answer": "19",
+    "template": "seen",
+    "prompt": "Compute 24 - 5. Integer only."
+  },
+  {
+    "id": "*:5:26",
+    "op": "*",
+    "a": 5,
+    "b": 26,
+    "answer": "130",
+    "template": "seen",
+    "prompt": "Compute 5 * 26. Integer only."
+  },
+  {
+    "id": "*:17:28",
+    "op": "*",
+    "a": 17,
+    "b": 28,
+    "answer": "476",
+    "template": "seen",
+    "prompt": "Compute 17 * 28. Integer only."
+  },
+  {
+    "id": "+:8:15",
+    "op": "+",
+    "a": 8,
+    "b": 15,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 8 + 15. Integer only."
+  },
+  {
+    "id": "*:9:30",
+    "op": "*",
+    "a": 9,
+    "b": 30,
+    "answer": "270",
+    "template": "seen",
+    "prompt": "Compute 9 * 30. Integer only."
+  },
+  {
+    "id": "-:30:1",
+    "op": "-",
+    "a": 30,
+    "b": 1,
+    "answer": "29",
+    "template": "seen",
+    "prompt": "Compute 30 - 1. Integer only."
+  },
+  {
+    "id": "*:29:29",
+    "op": "*",
+    "a": 29,
+    "b": 29,
+    "answer": "841",
+    "template": "seen",
+    "prompt": "Compute 29 * 29. Integer only."
+  },
+  {
+    "id": "+:0:10",
+    "op": "+",
+    "a": 0,
+    "b": 10,
+    "answer": "10",
+    "template": "seen",
+    "prompt": "Compute 0 + 10. Integer only."
+  },
+  {
+    "id": "+:3:4",
+    "op": "+",
+    "a": 3,
+    "b": 4,
+    "answer": "7",
+    "template": "seen",
+    "prompt": "Compute 3 + 4. Integer only."
+  },
+  {
+    "id": "+:18:26",
+    "op": "+",
+    "a": 18,
+    "b": 26,
+    "answer": "44",
+    "template": "seen",
+    "prompt": "Compute 18 + 26. Integer only."
+  },
+  {
+    "id": "*:9:25",
+    "op": "*",
+    "a": 9,
+    "b": 25,
+    "answer": "225",
+    "template": "seen",
+    "prompt": "Compute 9 * 25. Integer only."
+  },
+  {
+    "id": "*:18:27",
+    "op": "*",
+    "a": 18,
+    "b": 27,
+    "answer": "486",
+    "template": "seen",
+    "prompt": "Compute 18 * 27. Integer only."
+  },
+  {
+    "id": "*:8:19",
+    "op": "*",
+    "a": 8,
+    "b": 19,
+    "answer": "152",
+    "template": "seen",
+    "prompt": "Compute 8 * 19. Integer only."
+  },
+  {
+    "id": "+:15:24",
+    "op": "+",
+    "a": 15,
+    "b": 24,
+    "answer": "39",
+    "template": "seen",
+    "prompt": "Compute 15 + 24. Integer only."
+  },
+  {
+    "id": "-:15:13",
+    "op": "-",
+    "a": 15,
+    "b": 13,
+    "answer": "2",
+    "template": "seen",
+    "prompt": "Compute 15 - 13. Integer only."
+  },
+  {
+    "id": "-:24:1",
+    "op": "-",
+    "a": 24,
+    "b": 1,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 24 - 1. Integer only."
+  },
+  {
+    "id": "*:7:20",
+    "op": "*",
+    "a": 7,
+    "b": 20,
+    "answer": "140",
+    "template": "seen",
+    "prompt": "Compute 7 * 20. Integer only."
+  },
+  {
+    "id": "+:16:21",
+    "op": "+",
+    "a": 16,
+    "b": 21,
+    "answer": "37",
+    "template": "seen",
+    "prompt": "Compute 16 + 21. Integer only."
+  },
+  {
+    "id": "+:21:25",
+    "op": "+",
+    "a": 21,
+    "b": 25,
+    "answer": "46",
+    "template": "seen",
+    "prompt": "Compute 21 + 25. Integer only."
+  },
+  {
+    "id": "+:0:12",
+    "op": "+",
+    "a": 0,
+    "b": 12,
+    "answer": "12",
+    "template": "seen",
+    "prompt": "Compute 0 + 12. Integer only."
+  },
+  {
+    "id": "*:6:19",
+    "op": "*",
+    "a": 6,
+    "b": 19,
+    "answer": "114",
+    "template": "seen",
+    "prompt": "Compute 6 * 19. Integer only."
+  },
+  {
+    "id": "+:13:25",
+    "op": "+",
+    "a": 13,
+    "b": 25,
+    "answer": "38",
+    "template": "seen",
+    "prompt": "Compute 13 + 25. Integer only."
+  },
+  {
+    "id": "-:2:15",
+    "op": "-",
+    "a": 2,
+    "b": 15,
+    "answer": "-13",
+    "template": "seen",
+    "prompt": "Compute 2 - 15. Integer only."
+  },
+  {
+    "id": "+:15:22",
+    "op": "+",
+    "a": 15,
+    "b": 22,
+    "answer": "37",
+    "template": "seen",
+    "prompt": "Compute 15 + 22. Integer only."
+  },
+  {
+    "id": "*:19:29",
+    "op": "*",
+    "a": 19,
+    "b": 29,
+    "answer": "551",
+    "template": "seen",
+    "prompt": "Compute 19 * 29. Integer only."
+  },
+  {
+    "id": "*:9:12",
+    "op": "*",
+    "a": 9,
+    "b": 12,
+    "answer": "108",
+    "template": "seen",
+    "prompt": "Compute 9 * 12. Integer only."
+  },
+  {
+    "id": "+:9:25",
+    "op": "+",
+    "a": 9,
+    "b": 25,
+    "answer": "34",
+    "template": "seen",
+    "prompt": "Compute 9 + 25. Integer only."
+  },
+  {
+    "id": "*:23:23",
+    "op": "*",
+    "a": 23,
+    "b": 23,
+    "answer": "529",
+    "template": "seen",
+    "prompt": "Compute 23 * 23. Integer only."
+  },
+  {
+    "id": "-:19:28",
+    "op": "-",
+    "a": 19,
+    "b": 28,
+    "answer": "-9",
+    "template": "seen",
+    "prompt": "Compute 19 - 28. Integer only."
+  },
+  {
+    "id": "*:3:11",
+    "op": "*",
+    "a": 3,
+    "b": 11,
+    "answer": "33",
+    "template": "seen",
+    "prompt": "Compute 3 * 11. Integer only."
+  },
+  {
+    "id": "+:15:29",
+    "op": "+",
+    "a": 15,
+    "b": 29,
+    "answer": "44",
+    "template": "seen",
+    "prompt": "Compute 15 + 29. Integer only."
+  },
+  {
+    "id": "*:10:15",
+    "op": "*",
+    "a": 10,
+    "b": 15,
+    "answer": "150",
+    "template": "seen",
+    "prompt": "Compute 10 * 15. Integer only."
+  },
+  {
+    "id": "*:3:21",
+    "op": "*",
+    "a": 3,
+    "b": 21,
+    "answer": "63",
+    "template": "seen",
+    "prompt": "Compute 3 * 21. Integer only."
+  },
+  {
+    "id": "*:18:19",
+    "op": "*",
+    "a": 18,
+    "b": 19,
+    "answer": "342",
+    "template": "seen",
+    "prompt": "Compute 18 * 19. Integer only."
+  },
+  {
+    "id": "+:9:9",
+    "op": "+",
+    "a": 9,
+    "b": 9,
+    "answer": "18",
+    "template": "seen",
+    "prompt": "Compute 9 + 9. Integer only."
+  },
+  {
+    "id": "*:5:10",
+    "op": "*",
+    "a": 5,
+    "b": 10,
+    "answer": "50",
+    "template": "seen",
+    "prompt": "Compute 5 * 10. Integer only."
+  },
+  {
+    "id": "+:18:24",
+    "op": "+",
+    "a": 18,
+    "b": 24,
+    "answer": "42",
+    "template": "seen",
+    "prompt": "Compute 18 + 24. Integer only."
+  },
+  {
+    "id": "+:5:8",
+    "op": "+",
+    "a": 5,
+    "b": 8,
+    "answer": "13",
+    "template": "seen",
+    "prompt": "Compute 5 + 8. Integer only."
+  },
+  {
+    "id": "*:3:14",
+    "op": "*",
+    "a": 3,
+    "b": 14,
+    "answer": "42",
+    "template": "seen",
+    "prompt": "Compute 3 * 14. Integer only."
+  },
+  {
+    "id": "+:21:28",
+    "op": "+",
+    "a": 21,
+    "b": 28,
+    "answer": "49",
+    "template": "seen",
+    "prompt": "Compute 21 + 28. Integer only."
+  },
+  {
+    "id": "+:0:30",
+    "op": "+",
+    "a": 0,
+    "b": 30,
+    "answer": "30",
+    "template": "seen",
+    "prompt": "Compute 0 + 30. Integer only."
+  },
+  {
+    "id": "+:8:16",
+    "op": "+",
+    "a": 8,
+    "b": 16,
+    "answer": "24",
+    "template": "seen",
+    "prompt": "Compute 8 + 16. Integer only."
+  },
+  {
+    "id": "-:8:30",
+    "op": "-",
+    "a": 8,
+    "b": 30,
+    "answer": "-22",
+    "template": "seen",
+    "prompt": "Compute 8 - 30. Integer only."
+  },
+  {
+    "id": "-:14:16",
+    "op": "-",
+    "a": 14,
+    "b": 16,
+    "answer": "-2",
+    "template": "seen",
+    "prompt": "Compute 14 - 16. Integer only."
+  },
+  {
+    "id": "+:18:19",
+    "op": "+",
+    "a": 18,
+    "b": 19,
+    "answer": "37",
+    "template": "seen",
+    "prompt": "Compute 18 + 19. Integer only."
+  },
+  {
+    "id": "+:19:23",
+    "op": "+",
+    "a": 19,
+    "b": 23,
+    "answer": "42",
+    "template": "seen",
+    "prompt": "Compute 19 + 23. Integer only."
+  },
+  {
+    "id": "*:3:25",
+    "op": "*",
+    "a": 3,
+    "b": 25,
+    "answer": "75",
+    "template": "seen",
+    "prompt": "Compute 3 * 25. Integer only."
+  },
+  {
+    "id": "-:11:21",
+    "op": "-",
+    "a": 11,
+    "b": 21,
+    "answer": "-10",
+    "template": "seen",
+    "prompt": "Compute 11 - 21. Integer only."
+  },
+  {
+    "id": "+:19:26",
+    "op": "+",
+    "a": 19,
+    "b": 26,
+    "answer": "45",
+    "template": "seen",
+    "prompt": "Compute 19 + 26. Integer only."
+  },
+  {
+    "id": "-:17:27",
+    "op": "-",
+    "a": 17,
+    "b": 27,
+    "answer": "-10",
+    "template": "seen",
+    "prompt": "Compute 17 - 27. Integer only."
+  },
+  {
+    "id": "-:8:11",
+    "op": "-",
+    "a": 8,
+    "b": 11,
+    "answer": "-3",
+    "template": "seen",
+    "prompt": "Compute 8 - 11. Integer only."
+  },
+  {
+    "id": "+:2:26",
+    "op": "+",
+    "a": 2,
+    "b": 26,
+    "answer": "28",
+    "template": "seen",
+    "prompt": "Compute 2 + 26. Integer only."
+  },
+  {
+    "id": "*:25:29",
+    "op": "*",
+    "a": 25,
+    "b": 29,
+    "answer": "725",
+    "template": "seen",
+    "prompt": "Compute 25 * 29. Integer only."
+  },
+  {
+    "id": "-:2:7",
+    "op": "-",
+    "a": 2,
+    "b": 7,
+    "answer": "-5",
+    "template": "seen",
+    "prompt": "Compute 2 - 7. Integer only."
+  },
+  {
+    "id": "-:24:25",
+    "op": "-",
+    "a": 24,
+    "b": 25,
+    "answer": "-1",
+    "template": "seen",
+    "prompt": "Compute 24 - 25. Integer only."
+  },
+  {
+    "id": "-:7:17",
+    "op": "-",
+    "a": 7,
+    "b": 17,
+    "answer": "-10",
+    "template": "seen",
+    "prompt": "Compute 7 - 17. Integer only."
+  },
+  {
+    "id": "-:7:27",
+    "op": "-",
+    "a": 7,
+    "b": 27,
+    "answer": "-20",
+    "template": "seen",
+    "prompt": "Compute 7 - 27. Integer only."
+  },
+  {
+    "id": "*:1:21",
+    "op": "*",
+    "a": 1,
+    "b": 21,
+    "answer": "21",
+    "template": "seen",
+    "prompt": "Compute 1 * 21. Integer only."
+  },
+  {
+    "id": "-:8:9",
+    "op": "-",
+    "a": 8,
+    "b": 9,
+    "answer": "-1",
+    "template": "seen",
+    "prompt": "Compute 8 - 9. Integer only."
+  },
+  {
+    "id": "*:6:17",
+    "op": "*",
+    "a": 6,
+    "b": 17,
+    "answer": "102",
+    "template": "seen",
+    "prompt": "Compute 6 * 17. Integer only."
+  },
+  {
+    "id": "*:19:26",
+    "op": "*",
+    "a": 19,
+    "b": 26,
+    "answer": "494",
+    "template": "seen",
+    "prompt": "Compute 19 * 26. Integer only."
+  },
+  {
+    "id": "+:8:23",
+    "op": "+",
+    "a": 8,
+    "b": 23,
+    "answer": "31",
+    "template": "seen",
+    "prompt": "Compute 8 + 23. Integer only."
+  },
+  {
+    "id": "*:2:3",
+    "op": "*",
+    "a": 2,
+    "b": 3,
+    "answer": "6",
+    "template": "seen",
+    "prompt": "Compute 2 * 3. Integer only."
+  }
+]

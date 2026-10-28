@@ -1,0 +1,69 @@
+{
+  "train": {
+    "input": {
+      "split": "train",
+      "id": "*:15:26",
+      "prompt": "Compute 15 * 26. Integer only.",
+      "reference": "390",
+      "scope": "CLI usability; not heldout evidence"
+    },
+    "output": {
+      "text": "390",
+      "valid_utf8": true,
+      "codes": [
+        [
+          61,
+          52,
+          21,
+          53,
+          55,
+          24,
+          32,
+          13,
+          20,
+          38,
+          10,
+          54,
+          11,
+          59,
+          61
+        ]
+      ],
+      "seconds": 0.020343826996395364,
+      "steps": 4
+    },
+    "correct": true
+  },
+  "additional_unassigned_prompt": {
+    "prompt": "Compute 7 + 9. Integer only.",
+    "reference": "16",
+    "output": {
+      "text": "18",
+      "valid_utf8": true,
+      "codes": [
+        [
+          13,
+          60,
+          21,
+          21,
+          7,
+          24,
+          32,
+          34,
+          28,
+          45,
+          27,
+          51,
+          11,
+          59,
+          61
+        ]
+      ],
+      "seconds": 0.01946482600760646,
+      "steps": 4
+    },
+    "correct": false
+  },
+  "teacher_loaded": false,
+  "scope": "CLI smoke test only, not added to TEST64 or checkpoint selection"
+}

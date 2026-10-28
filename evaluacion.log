@@ -1,0 +1,299 @@
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+kd {'correct': 0.015625, 'teacher_agreement': 0.015625, 'valid_utf8': 1.0, 'strict_integer': 0.984375} {'mean_wall_seconds': 0.015594107297602022, 'median_wall_seconds': 0.01525482052238658, 'mean_cpu_seconds': 0.03118623456249999, 'sum_wall_seconds': 0.9980228670465294, 'parameters': 1034816, 'checkpoint_bytes': 4268662, 'p95_wall_seconds': 0.016019679984310642, 'batch': 1, 'threads': 2, 'scope': 'prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded'}
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+supervised {'correct': 0.0, 'teacher_agreement': 0.0, 'valid_utf8': 1.0, 'strict_integer': 0.953125} {'mean_wall_seconds': 0.015488423500755744, 'median_wall_seconds': 0.015123909004614688, 'mean_cpu_seconds': 0.030953670859374893, 'sum_wall_seconds': 0.9912591040483676, 'parameters': 1034816, 'checkpoint_bytes': 4277774, 'p95_wall_seconds': 0.016419132996816188, 'batch': 1, 'threads': 2, 'scope': 'prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded'}
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+untrained {'correct': 0.0, 'teacher_agreement': 0.0, 'valid_utf8': 1.0, 'strict_integer': 1.0} {'mean_wall_seconds': 0.015782583267991868, 'median_wall_seconds': 0.015272968012141064, 'mean_cpu_seconds': 0.03156031217187512, 'sum_wall_seconds': 1.0100853291514795, 'parameters': 1034816, 'checkpoint_bytes': 4277643, 'p95_wall_seconds': 0.01672272101859562, 'batch': 1, 'threads': 2, 'scope': 'prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded'}
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+joint {'correct': 0.0, 'teacher_agreement': 0.0, 'valid_utf8': 1.0, 'strict_integer': 0.96875} {'mean_wall_seconds': 0.01524895468764953, 'median_wall_seconds': 0.015069647008203901, 'mean_cpu_seconds': 0.030545130921875163, 'sum_wall_seconds': 0.9759331000095699, 'parameters': 1034816, 'checkpoint_bytes': 4269183, 'p95_wall_seconds': 0.0159230180142913, 'batch': 1, 'threads': 2, 'scope': 'prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded'}
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+continued {'correct': 0.0, 'teacher_agreement': 0.0, 'valid_utf8': 1.0, 'strict_integer': 0.90625} {'mean_wall_seconds': 0.015586401470955025, 'median_wall_seconds': 0.01531669549876824, 'mean_cpu_seconds': 0.031158054234375038, 'sum_wall_seconds': 0.9975296941411216, 'parameters': 1034816, 'checkpoint_bytes': 4277643, 'p95_wall_seconds': 0.016251093009486794, 'batch': 1, 'threads': 2, 'scope': 'prompt embedding + 4 scales + VQVAE decode; model already loaded; one warmup excluded'}
+{
+  "teacher": {
+    "all": {
+      "correct": 0.90625,
+      "teacher_agreement": 1.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "seen": {
+      "correct": 0.96875,
+      "teacher_agreement": 1.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.84375,
+      "teacher_agreement": 1.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.9545454545454546,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "-": {
+        "correct": 0.9523809523809523,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "*": {
+        "correct": 0.8095238095238095,
+        "teacher_agreement": 1.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      }
+    }
+  },
+  "kd": {
+    "all": {
+      "correct": 0.015625,
+      "teacher_agreement": 0.015625,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.984375
+    },
+    "seen": {
+      "correct": 0.03125,
+      "teacher_agreement": 0.03125,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.96875
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.045454545454545456,
+        "teacher_agreement": 0.045454545454545456,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9545454545454546
+      },
+      "-": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      }
+    }
+  },
+  "supervised": {
+    "all": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.953125
+    },
+    "seen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.90625
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9545454545454546
+      },
+      "-": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9523809523809523
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9523809523809523
+      }
+    }
+  },
+  "untrained": {
+    "all": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "seen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "-": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      }
+    }
+  },
+  "joint": {
+    "all": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.96875
+    },
+    "seen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.9375
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "-": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9523809523809523
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9523809523809523
+      }
+    }
+  },
+  "continued": {
+    "all": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.90625
+    },
+    "seen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 0.8125
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9090909090909091
+      },
+      "-": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.9523809523809523
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 0.8571428571428571
+      }
+    }
+  },
+  "nearest_train": {
+    "all": {
+      "correct": 0.015625,
+      "teacher_agreement": 0.015625,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "seen": {
+      "correct": 0.03125,
+      "teacher_agreement": 0.03125,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "unseen": {
+      "correct": 0.0,
+      "teacher_agreement": 0.0,
+      "valid_utf8": 1.0,
+      "strict_integer": 1.0
+    },
+    "by_operation": {
+      "+": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "-": {
+        "correct": 0.047619047619047616,
+        "teacher_agreement": 0.047619047619047616,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      },
+      "*": {
+        "correct": 0.0,
+        "teacher_agreement": 0.0,
+        "valid_utf8": 1.0,
+        "strict_integer": 1.0
+      }
+    }
+  }
+}

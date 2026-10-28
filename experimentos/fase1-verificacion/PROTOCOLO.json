@@ -1,0 +1,14 @@
+{
+  "phase": "1-verificacion-diagnostica",
+  "status": "frozen before running; no FIT",
+  "question": "Separar memorizacion TRAIN, generalizacion DEV y dependencia de codigos previos correctos",
+  "data": ["data/teacher-train.jsonl", "data/teacher-dev.jsonl"],
+  "test_policy": "No abrir ni reevaluar TEST historico; ya observado, no es validacion nueva",
+  "checkpoints": ["kd", "joint", "continued", "supervised", "untrained"],
+  "inputs": "Todos TRAIN/DEV para generacion libre; teacher forcing solo kd_usable",
+  "metrics": ["exactitud entera de tarea", "igualdad textual docente", "parseo entero", "UTF8", "bytes no PAD", "CE y exactitud de codigos por nivel", "reconstruccion separada"],
+  "checks": ["SHA256 fuentes/checkpoints contra freeze antes y despues", "rollout ST coincide con inferencia oficial", "invariancia batch1 vs batch16", "gradiente text-only generador y decoder positivo; encoder y books cero"],
+  "budget": {"heavy_wall_seconds_max": 600, "threads": 2, "batch": 16, "training_steps": 0, "lock": "/tmp/qwen-proyectos-compute.lock", "lock_nonblocking": true},
+  "stop": "Terminar tras diagnostico; sin grid, sin extraccion Qwen ni nuevo entrenamiento",
+  "scope": "Exploratorio sobre checkpoints existentes; teacher forcing incluye objetivos como condicion y no acredita generacion autonoma"
+}

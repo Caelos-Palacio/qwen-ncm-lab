@@ -1,0 +1,578 @@
+[
+  {
+    "id": "-:28:4",
+    "op": "-",
+    "a": 28,
+    "b": 4,
+    "answer": "24",
+    "template": "seen",
+    "prompt": "Compute 28 - 4. Integer only."
+  },
+  {
+    "id": "*:5:16",
+    "op": "*",
+    "a": 5,
+    "b": 16,
+    "answer": "80",
+    "template": "seen",
+    "prompt": "Compute 5 * 16. Integer only."
+  },
+  {
+    "id": "-:11:24",
+    "op": "-",
+    "a": 11,
+    "b": 24,
+    "answer": "-13",
+    "template": "seen",
+    "prompt": "Compute 11 - 24. Integer only."
+  },
+  {
+    "id": "+:0:23",
+    "op": "+",
+    "a": 0,
+    "b": 23,
+    "answer": "23",
+    "template": "seen",
+    "prompt": "Compute 0 + 23. Integer only."
+  },
+  {
+    "id": "-:21:16",
+    "op": "-",
+    "a": 21,
+    "b": 16,
+    "answer": "5",
+    "template": "seen",
+    "prompt": "Compute 21 - 16. Integer only."
+  },
+  {
+    "id": "-:19:0",
+    "op": "-",
+    "a": 19,
+    "b": 0,
+    "answer": "19",
+    "template": "seen",
+    "prompt": "Compute 19 - 0. Integer only."
+  },
+  {
+    "id": "-:13:14",
+    "op": "-",
+    "a": 13,
+    "b": 14,
+    "answer": "-1",
+    "template": "seen",
+    "prompt": "Compute 13 - 14. Integer only."
+  },
+  {
+    "id": "*:5:27",
+    "op": "*",
+    "a": 5,
+    "b": 27,
+    "answer": "135",
+    "template": "seen",
+    "prompt": "Compute 5 * 27. Integer only."
+  },
+  {
+    "id": "*:28:28",
+    "op": "*",
+    "a": 28,
+    "b": 28,
+    "answer": "784",
+    "template": "seen",
+    "prompt": "Compute 28 * 28. Integer only."
+  },
+  {
+    "id": "+:0:0",
+    "op": "+",
+    "a": 0,
+    "b": 0,
+    "answer": "0",
+    "template": "seen",
+    "prompt": "Compute 0 + 0. Integer only."
+  },
+  {
+    "id": "+:14:28",
+    "op": "+",
+    "a": 14,
+    "b": 28,
+    "answer": "42",
+    "template": "seen",
+    "prompt": "Compute 14 + 28. Integer only."
+  },
+  {
+    "id": "-:3:6",
+    "op": "-",
+    "a": 3,
+    "b": 6,
+    "answer": "-3",
+    "template": "seen",
+    "prompt": "Compute 3 - 6. Integer only."
+  },
+  {
+    "id": "+:11:23",
+    "op": "+",
+    "a": 11,
+    "b": 23,
+    "answer": "34",
+    "template": "seen",
+    "prompt": "Compute 11 + 23. Integer only."
+  },
+  {
+    "id": "*:12:14",
+    "op": "*",
+    "a": 12,
+    "b": 14,
+    "answer": "168",
+    "template": "seen",
+    "prompt": "Compute 12 * 14. Integer only."
+  },
+  {
+    "id": "-:23:30",
+    "op": "-",
+    "a": 23,
+    "b": 30,
+    "answer": "-7",
+    "template": "seen",
+    "prompt": "Compute 23 - 30. Integer only."
+  },
+  {
+    "id": "*:7:26",
+    "op": "*",
+    "a": 7,
+    "b": 26,
+    "answer": "182",
+    "template": "seen",
+    "prompt": "Compute 7 * 26. Integer only."
+  },
+  {
+    "id": "-:17:25",
+    "op": "-",
+    "a": 17,
+    "b": 25,
+    "answer": "-8",
+    "template": "seen",
+    "prompt": "Compute 17 - 25. Integer only."
+  },
+  {
+    "id": "*:4:7",
+    "op": "*",
+    "a": 4,
+    "b": 7,
+    "answer": "28",
+    "template": "seen",
+    "prompt": "Compute 4 * 7. Integer only."
+  },
+  {
+    "id": "-:9:20",
+    "op": "-",
+    "a": 9,
+    "b": 20,
+    "answer": "-11",
+    "template": "seen",
+    "prompt": "Compute 9 - 20. Integer only."
+  },
+  {
+    "id": "+:3:15",
+    "op": "+",
+    "a": 3,
+    "b": 15,
+    "answer": "18",
+    "template": "seen",
+    "prompt": "Compute 3 + 15. Integer only."
+  },
+  {
+    "id": "+:14:27",
+    "op": "+",
+    "a": 14,
+    "b": 27,
+    "answer": "41",
+    "template": "seen",
+    "prompt": "Compute 14 + 27. Integer only."
+  },
+  {
+    "id": "*:2:11",
+    "op": "*",
+    "a": 2,
+    "b": 11,
+    "answer": "22",
+    "template": "seen",
+    "prompt": "Compute 2 * 11. Integer only."
+  },
+  {
+    "id": "*:7:10",
+    "op": "*",
+    "a": 7,
+    "b": 10,
+    "answer": "70",
+    "template": "seen",
+    "prompt": "Compute 7 * 10. Integer only."
+  },
+  {
+    "id": "-:19:10",
+    "op": "-",
+    "a": 19,
+    "b": 10,
+    "answer": "9",
+    "template": "seen",
+    "prompt": "Compute 19 - 10. Integer only."
+  },
+  {
+    "id": "*:5:30",
+    "op": "*",
+    "a": 5,
+    "b": 30,
+    "answer": "150",
+    "template": "seen",
+    "prompt": "Compute 5 * 30. Integer only."
+  },
+  {
+    "id": "-:14:19",
+    "op": "-",
+    "a": 14,
+    "b": 19,
+    "answer": "-5",
+    "template": "seen",
+    "prompt": "Compute 14 - 19. Integer only."
+  },
+  {
+    "id": "-:24:3",
+    "op": "-",
+    "a": 24,
+    "b": 3,
+    "answer": "21",
+    "template": "seen",
+    "prompt": "Compute 24 - 3. Integer only."
+  },
+  {
+    "id": "+:14:22",
+    "op": "+",
+    "a": 14,
+    "b": 22,
+    "answer": "36",
+    "template": "seen",
+    "prompt": "Compute 14 + 22. Integer only."
+  },
+  {
+    "id": "+:4:21",
+    "op": "+",
+    "a": 4,
+    "b": 21,
+    "answer": "25",
+    "template": "seen",
+    "prompt": "Compute 4 + 21. Integer only."
+  },
+  {
+    "id": "+:18:18",
+    "op": "+",
+    "a": 18,
+    "b": 18,
+    "answer": "36",
+    "template": "seen",
+    "prompt": "Compute 18 + 18. Integer only."
+  },
+  {
+    "id": "*:7:24",
+    "op": "*",
+    "a": 7,
+    "b": 24,
+    "answer": "168",
+    "template": "seen",
+    "prompt": "Compute 7 * 24. Integer only."
+  },
+  {
+    "id": "*:0:6",
+    "op": "*",
+    "a": 0,
+    "b": 6,
+    "answer": "0",
+    "template": "seen",
+    "prompt": "Compute 0 * 6. Integer only."
+  },
+  {
+    "id": "*:9:29",
+    "op": "*",
+    "a": 9,
+    "b": 29,
+    "answer": "261",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 9*29. Integer only."
+  },
+  {
+    "id": "+:2:11",
+    "op": "+",
+    "a": 2,
+    "b": 11,
+    "answer": "13",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 2+11. Integer only."
+  },
+  {
+    "id": "+:4:18",
+    "op": "+",
+    "a": 4,
+    "b": 18,
+    "answer": "22",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 4+18. Integer only."
+  },
+  {
+    "id": "-:15:24",
+    "op": "-",
+    "a": 15,
+    "b": 24,
+    "answer": "-9",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 15-24. Integer only."
+  },
+  {
+    "id": "+:15:17",
+    "op": "+",
+    "a": 15,
+    "b": 17,
+    "answer": "32",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 15+17. Integer only."
+  },
+  {
+    "id": "-:4:15",
+    "op": "-",
+    "a": 4,
+    "b": 15,
+    "answer": "-11",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 4-15. Integer only."
+  },
+  {
+    "id": "*:4:9",
+    "op": "*",
+    "a": 4,
+    "b": 9,
+    "answer": "36",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 4*9. Integer only."
+  },
+  {
+    "id": "*:11:14",
+    "op": "*",
+    "a": 11,
+    "b": 14,
+    "answer": "154",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 11*14. Integer only."
+  },
+  {
+    "id": "*:3:4",
+    "op": "*",
+    "a": 3,
+    "b": 4,
+    "answer": "12",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 3*4. Integer only."
+  },
+  {
+    "id": "*:5:19",
+    "op": "*",
+    "a": 5,
+    "b": 19,
+    "answer": "95",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 5*19. Integer only."
+  },
+  {
+    "id": "+:0:21",
+    "op": "+",
+    "a": 0,
+    "b": 21,
+    "answer": "21",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 0+21. Integer only."
+  },
+  {
+    "id": "+:8:22",
+    "op": "+",
+    "a": 8,
+    "b": 22,
+    "answer": "30",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 8+22. Integer only."
+  },
+  {
+    "id": "*:7:13",
+    "op": "*",
+    "a": 7,
+    "b": 13,
+    "answer": "91",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 7*13. Integer only."
+  },
+  {
+    "id": "+:8:17",
+    "op": "+",
+    "a": 8,
+    "b": 17,
+    "answer": "25",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 8+17. Integer only."
+  },
+  {
+    "id": "-:2:13",
+    "op": "-",
+    "a": 2,
+    "b": 13,
+    "answer": "-11",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 2-13. Integer only."
+  },
+  {
+    "id": "+:4:16",
+    "op": "+",
+    "a": 4,
+    "b": 16,
+    "answer": "20",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 4+16. Integer only."
+  },
+  {
+    "id": "+:23:30",
+    "op": "+",
+    "a": 23,
+    "b": 30,
+    "answer": "53",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 23+30. Integer only."
+  },
+  {
+    "id": "*:28:30",
+    "op": "*",
+    "a": 28,
+    "b": 30,
+    "answer": "840",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 28*30. Integer only."
+  },
+  {
+    "id": "+:18:22",
+    "op": "+",
+    "a": 18,
+    "b": 22,
+    "answer": "40",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 18+22. Integer only."
+  },
+  {
+    "id": "-:1:7",
+    "op": "-",
+    "a": 1,
+    "b": 7,
+    "answer": "-6",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 1-7. Integer only."
+  },
+  {
+    "id": "-:27:13",
+    "op": "-",
+    "a": 27,
+    "b": 13,
+    "answer": "14",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 27-13. Integer only."
+  },
+  {
+    "id": "+:5:11",
+    "op": "+",
+    "a": 5,
+    "b": 11,
+    "answer": "16",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 5+11. Integer only."
+  },
+  {
+    "id": "-:28:0",
+    "op": "-",
+    "a": 28,
+    "b": 0,
+    "answer": "28",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 28-0. Integer only."
+  },
+  {
+    "id": "+:0:28",
+    "op": "+",
+    "a": 0,
+    "b": 28,
+    "answer": "28",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 0+28. Integer only."
+  },
+  {
+    "id": "-:18:18",
+    "op": "-",
+    "a": 18,
+    "b": 18,
+    "answer": "0",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 18-18. Integer only."
+  },
+  {
+    "id": "+:19:19",
+    "op": "+",
+    "a": 19,
+    "b": 19,
+    "answer": "38",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 19+19. Integer only."
+  },
+  {
+    "id": "+:0:17",
+    "op": "+",
+    "a": 0,
+    "b": 17,
+    "answer": "17",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 0+17. Integer only."
+  },
+  {
+    "id": "-:0:1",
+    "op": "-",
+    "a": 0,
+    "b": 1,
+    "answer": "-1",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 0-1. Integer only."
+  },
+  {
+    "id": "-:20:28",
+    "op": "-",
+    "a": 20,
+    "b": 28,
+    "answer": "-8",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 20-28. Integer only."
+  },
+  {
+    "id": "*:10:20",
+    "op": "*",
+    "a": 10,
+    "b": 20,
+    "answer": "200",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 10*20. Integer only."
+  },
+  {
+    "id": "*:2:7",
+    "op": "*",
+    "a": 2,
+    "b": 7,
+    "answer": "14",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 2*7. Integer only."
+  },
+  {
+    "id": "*:12:23",
+    "op": "*",
+    "a": 12,
+    "b": 23,
+    "answer": "276",
+    "template": "unseen",
+    "prompt": "Evaluate the expression 12*23. Integer only."
+  }
+]

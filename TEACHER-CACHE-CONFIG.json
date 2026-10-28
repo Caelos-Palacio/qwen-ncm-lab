@@ -1,0 +1,9 @@
+{
+  "model_sha256": "37ae482d336108d23516fa35e8e0c4126688d81018b87178a18d752a1357814f",
+  "binary_sha256": "8964c900de0797b01a22308dfe2641e2fbd42f7051ad57c75948fdc688593e11",
+  "max_new": 8,
+  "temperature": 0,
+  "seed": "deterministic argmax",
+  "context": 2048,
+  "thinking": "closed"
+}

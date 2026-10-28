@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.symbiaxis/
+CACHE-*.pt
+*.gguf
+*.safetensors
+.DS_Store

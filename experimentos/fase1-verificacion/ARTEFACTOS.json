@@ -1,0 +1,38 @@
+{
+  "files": {
+    "ejecucion.log": {
+      "sha256": "e71d4185312ca192087ec3bb4269e29a999539d955bbf5a792c25f1f4a2a213d",
+      "bytes": 2700
+    },
+    "PREDICCIONES.json": {
+      "sha256": "5b17cbc2c1697e2974242a4f2f42460875fadeab99fa751526a8952ddee5b8e1",
+      "bytes": 134217
+    },
+    "intento1-error.log": {
+      "sha256": "45abcf605ed994a3ea4e091b75e8ddd6b4808351210978de8178d4a12c76deeb",
+      "bytes": 1216
+    },
+    "PROTOCOLO.json": {
+      "sha256": "7b996d39b44737b979956b5c8130df23c85c1500b3e70ba468cee49661b8d66a",
+      "bytes": 1318
+    },
+    "ejecutar.sh": {
+      "sha256": "6f06c4cc939ce7e9287c88aacea095b0700a5b9237a54d9fd1b46ba03ab249fb",
+      "bytes": 237
+    },
+    "RESULTADOS.json": {
+      "sha256": "493dbb30e3a5d283897073330566ed2dbaa885ce53e66dec6412bdd038eba5bd",
+      "bytes": 19859
+    },
+    "INFORME.md": {
+      "sha256": "a02c60fed9a9b3b07bcf3322489ccc545b7e496ccbada43bab3192ad45ced19d",
+      "bytes": 5934
+    },
+    "diagnosticar.py": {
+      "sha256": "04f208202ecccb9c16e38a4b2143398bb6009f3e5390af0ab498df694c00c760",
+      "bytes": 8855
+    }
+  },
+  "disk_bytes_excluding_this_manifest": 174336,
+  "validation": "compile and metric denominators PASS; no FIT"
+}

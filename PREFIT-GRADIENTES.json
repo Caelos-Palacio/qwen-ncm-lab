@@ -1,0 +1,9 @@
+{
+  "hard_forward_equals_official": true,
+  "text_loss": 5.137872219085693,
+  "text_only_generator_grad_norm": 1.0719864770763174,
+  "text_only_decoder_grad_norm": 7.6317654770559615,
+  "encoder_grad_norm": 0.0,
+  "codebook_grad_norm": 0.0,
+  "query_grad_norm": 0.01160321943461895
+}

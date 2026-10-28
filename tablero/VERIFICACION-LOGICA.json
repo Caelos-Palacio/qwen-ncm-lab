@@ -1,0 +1,29 @@
+{
+  "scope": "Lógica JavaScript con DOM mínimo simulado. No render visual, no eventos de navegador reales.",
+  "runs": [
+    {
+      "width": 1280,
+      "frames": 7,
+      "navigation": 7,
+      "detail_open_close": 10,
+      "table_rows": 6,
+      "zoom_fit_center": true,
+      "minimap_logic": true,
+      "reading_toggle": true,
+      "initial_mobile_reading": false,
+      "rendered": false
+    },
+    {
+      "width": 390,
+      "frames": 7,
+      "navigation": 7,
+      "detail_open_close": 10,
+      "table_rows": 6,
+      "zoom_fit_center": true,
+      "minimap_logic": true,
+      "reading_toggle": true,
+      "initial_mobile_reading": true,
+      "rendered": false
+    }
+  ]
+}

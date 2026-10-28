@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-20T15:57:49.348747+00:00",
+  "reason": "USER_PROCESS_EFFICIENCY",
+  "action": "stop own fit after KD early stop; optional supervised condition deferred; joint/continued run separately",
+  "pid": 917749,
+  "validated_command": [
+    "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+    "/home/carlos/qwen-ncm-lab/train.py"
+  ],
+  "kd_steps_saved": 1400,
+  "supervised_checkpoint_exists": true,
+  "partial_supervised_cost_not_zero": true,
+  "supervised_time_since_KD_boundary_seconds": 63.89296269416809,
+  "scope_warning": "partial supervised steps not instrumented per update; preserve total phase cost and any scout/log, do not claim zero cost"
+}

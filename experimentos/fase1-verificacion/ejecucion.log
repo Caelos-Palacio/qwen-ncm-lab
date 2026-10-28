@@ -1,0 +1,25 @@
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+kd {'train': {'n': 192, 'arithmetic_exact': 183, 'teacher_text_exact': 189, 'integer_parse': 192, 'valid_utf8': 192, 'nonpad_correct': 415, 'nonpad_total': 424, 'full_bytes_exact': 182}, 'dev': {'n': 32, 'arithmetic_exact': 1, 'teacher_text_exact': 2, 'integer_parse': 32, 'valid_utf8': 32, 'nonpad_correct': 20, 'nonpad_total': 67, 'full_bytes_exact': 1}}
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+joint {'train': {'n': 192, 'arithmetic_exact': 186, 'teacher_text_exact': 192, 'integer_parse': 192, 'valid_utf8': 192, 'nonpad_correct': 417, 'nonpad_total': 424, 'full_bytes_exact': 186}, 'dev': {'n': 32, 'arithmetic_exact': 1, 'teacher_text_exact': 2, 'integer_parse': 32, 'valid_utf8': 32, 'nonpad_correct': 21, 'nonpad_total': 67, 'full_bytes_exact': 1}}
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+continued {'train': {'n': 192, 'arithmetic_exact': 186, 'teacher_text_exact': 192, 'integer_parse': 192, 'valid_utf8': 192, 'nonpad_correct': 417, 'nonpad_total': 424, 'full_bytes_exact': 186}, 'dev': {'n': 32, 'arithmetic_exact': 1, 'teacher_text_exact': 2, 'integer_parse': 31, 'valid_utf8': 32, 'nonpad_correct': 21, 'nonpad_total': 67, 'full_bytes_exact': 1}}
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+supervised {'train': {'n': 192, 'arithmetic_exact': 33, 'teacher_text_exact': 32, 'integer_parse': 191, 'valid_utf8': 192, 'nonpad_correct': 190, 'nonpad_total': 424, 'full_bytes_exact': 33}, 'dev': {'n': 32, 'arithmetic_exact': 1, 'teacher_text_exact': 1, 'integer_parse': 32, 'valid_utf8': 32, 'nonpad_correct': 21, 'nonpad_total': 67, 'full_bytes_exact': 1}}
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+untrained {'train': {'n': 192, 'arithmetic_exact': 0, 'teacher_text_exact': 0, 'integer_parse': 192, 'valid_utf8': 192, 'nonpad_correct': 74, 'nonpad_total': 424, 'full_bytes_exact': 0}, 'dev': {'n': 32, 'arithmetic_exact': 0, 'teacher_text_exact': 0, 'integer_parse': 32, 'valid_utf8': 32, 'nonpad_correct': 10, 'nonpad_total': 67, 'full_bytes_exact': 0}}

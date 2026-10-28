@@ -1,0 +1,676 @@
+{
+  "protocol_sha256": "7b996d39b44737b979956b5c8130df23c85c1500b3e70ba468cee49661b8d66a",
+  "initial_hashes": {
+    "tokenizer.pt": "41e8b6bfb19eaff672d982cd227f9279b66e22c69c958d13774d1305f8b1c4f1",
+    "kd.pt": "703549207259c1c829fbea7049f6333cae6eaf1741fa4070f58c2c59167df16c",
+    "supervised.pt": "715ed38b6e041fa46a3448212f6f5aebd33c3272d9988452c42bd81f158250dc",
+    "untrained.pt": "fae45fa9eb91641f13c6d4ea1849d3189baa9040073162d2f28c244dc5e41343",
+    "joint.pt": "a6a73e9d6514cfa8f56577cb78a21f287737732bfdbc4ef28ea44208a15a244d",
+    "continued.pt": "bc43f0d034dd6298644de94b598d22bd0fdfbdfed2c1b3f907841fe73d9a750e",
+    "PROTOCOLO.json": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+    "PROTOCOLO.md": "16b9a7dbf68194bf32e8cead7d526b8fead3a2236ec5f0fb14afe460f22b4394",
+    "modelo.py": "2a5af84edeaafba7f49f4c39fef5e37aa4916c97257862be0ea387d1a51ff479",
+    "train.py": "462a2fa29e92124e204e38385e15e44ad7c5099ed97dc91c63e13f0e200de7f0",
+    "teacher.py": "4d7fa9059e3071b1d527debdb77667f71b7bc5c71212f89a9321f6c5e87c03ed",
+    "evaluar.py": "900ee339a135ccf1ae05780471d3e9af96e07d988551764e73ed682a6eb557fd",
+    "inferir.py": "83245f6f1a51b09ebd56247a158f7702af60d3836472339b845677896424f37d",
+    "joint.py": "9988173c81454afea6d79d9bb584588f032698e6b1651d83057f83d2f0f626d4",
+    "continuar_joint.py": "ed58e8f2d7bb67d1c8c97e7f131fccd42b574a4d062723600426e74bc6ad38c5",
+    "data/train.json": "96fac9a72cb1f309bbf4a910935d05a3c63aa5b6419a38487072059c77e2b924",
+    "data/dev.json": "05bc1d46e3c32fc5ac42edf0fbdd552d750aea5ecfca30dd61d4017d504564e9",
+    "data/test.json": "18ce4adf30eb2ba3917bd3a83d36fd28b94a51f14d16e671cb6b1d0ea0ae52fa"
+  },
+  "data_sha256": {
+    "train": "cd524dcd30c1254efb565991a7b6ffd67be847fad6f65ed9e5380febd0e16d7f",
+    "dev": "516a36cac337f9bd4fa204408afc123947ecd7beba4572764169c166850709cb"
+  },
+  "methods": {
+    "kd": {
+      "parameters_generator": 835520,
+      "parameters_codec": 199296,
+      "splits": {
+        "train": {
+          "free": {
+            "n": 192,
+            "arithmetic_exact": 183,
+            "teacher_text_exact": 189,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 415,
+            "nonpad_total": 424,
+            "full_bytes_exact": 182
+          },
+          "teacher_forced": {
+            "n": 192,
+            "arithmetic_exact": 185,
+            "teacher_text_exact": 191,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 424,
+            "nonpad_total": 425,
+            "full_bytes_exact": 189
+          },
+          "reconstruction": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "code_levels": [
+            {
+              "correct": 192,
+              "total": 192,
+              "ce_sum": 0.3512638323009014,
+              "free_correct": 192
+            },
+            {
+              "correct": 384,
+              "total": 384,
+              "ce_sum": 2.6107790172100067,
+              "free_correct": 384
+            },
+            {
+              "correct": 764,
+              "total": 768,
+              "ce_sum": 16.223766207695007,
+              "free_correct": 764
+            },
+            {
+              "correct": 1534,
+              "total": 1536,
+              "ce_sum": 29.099582076072693,
+              "free_correct": 1531
+            }
+          ]
+        },
+        "dev": {
+          "free": {
+            "n": 32,
+            "arithmetic_exact": 1,
+            "teacher_text_exact": 2,
+            "integer_parse": 32,
+            "valid_utf8": 32,
+            "nonpad_correct": 20,
+            "nonpad_total": 67,
+            "full_bytes_exact": 1
+          },
+          "teacher_forced": {
+            "n": 31,
+            "arithmetic_exact": 9,
+            "teacher_text_exact": 10,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 37,
+            "nonpad_total": 64,
+            "full_bytes_exact": 10
+          },
+          "reconstruction": {
+            "n": 31,
+            "arithmetic_exact": 30,
+            "teacher_text_exact": 31,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 64,
+            "nonpad_total": 64,
+            "full_bytes_exact": 31
+          },
+          "code_levels": [
+            {
+              "correct": 17,
+              "total": 31,
+              "ce_sum": 96.7850112915039,
+              "free_correct": 17
+            },
+            {
+              "correct": 41,
+              "total": 62,
+              "ce_sum": 119.78451156616211,
+              "free_correct": 41
+            },
+            {
+              "correct": 88,
+              "total": 124,
+              "ce_sum": 157.55974578857422,
+              "free_correct": 86
+            },
+            {
+              "correct": 196,
+              "total": 248,
+              "ce_sum": 212.6222686767578,
+              "free_correct": 164
+            }
+          ]
+        }
+      },
+      "wall_seconds": 2.428434733010363
+    },
+    "joint": {
+      "parameters_generator": 835520,
+      "parameters_codec": 199296,
+      "splits": {
+        "train": {
+          "free": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 417,
+            "nonpad_total": 424,
+            "full_bytes_exact": 186
+          },
+          "teacher_forced": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "reconstruction": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "code_levels": [
+            {
+              "correct": 192,
+              "total": 192,
+              "ce_sum": 0.09683542232960463,
+              "free_correct": 192
+            },
+            {
+              "correct": 384,
+              "total": 384,
+              "ce_sum": 0.3633546642959118,
+              "free_correct": 384
+            },
+            {
+              "correct": 768,
+              "total": 768,
+              "ce_sum": 1.3742370679974556,
+              "free_correct": 768
+            },
+            {
+              "correct": 1536,
+              "total": 1536,
+              "ce_sum": 10.432670295238495,
+              "free_correct": 1536
+            }
+          ]
+        },
+        "dev": {
+          "free": {
+            "n": 32,
+            "arithmetic_exact": 1,
+            "teacher_text_exact": 2,
+            "integer_parse": 32,
+            "valid_utf8": 32,
+            "nonpad_correct": 21,
+            "nonpad_total": 67,
+            "full_bytes_exact": 1
+          },
+          "teacher_forced": {
+            "n": 31,
+            "arithmetic_exact": 8,
+            "teacher_text_exact": 9,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 40,
+            "nonpad_total": 64,
+            "full_bytes_exact": 9
+          },
+          "reconstruction": {
+            "n": 31,
+            "arithmetic_exact": 30,
+            "teacher_text_exact": 31,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 64,
+            "nonpad_total": 64,
+            "full_bytes_exact": 31
+          },
+          "code_levels": [
+            {
+              "correct": 19,
+              "total": 31,
+              "ce_sum": 110.49706649780273,
+              "free_correct": 19
+            },
+            {
+              "correct": 41,
+              "total": 62,
+              "ce_sum": 144.54163360595703,
+              "free_correct": 41
+            },
+            {
+              "correct": 95,
+              "total": 124,
+              "ce_sum": 148.21709823608398,
+              "free_correct": 88
+            },
+            {
+              "correct": 202,
+              "total": 248,
+              "ce_sum": 206.90234375,
+              "free_correct": 170
+            }
+          ]
+        }
+      },
+      "text_only_gradients": {
+        "generator": 0.012203079859163789,
+        "decoder": 0.016798513552554253,
+        "encoder": 0.0,
+        "codebooks": 0.0
+      },
+      "wall_seconds": 2.570168834005017
+    },
+    "continued": {
+      "parameters_generator": 835520,
+      "parameters_codec": 199296,
+      "splits": {
+        "train": {
+          "free": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 417,
+            "nonpad_total": 424,
+            "full_bytes_exact": 186
+          },
+          "teacher_forced": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "reconstruction": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "code_levels": [
+            {
+              "correct": 192,
+              "total": 192,
+              "ce_sum": 0.10905243223533034,
+              "free_correct": 192
+            },
+            {
+              "correct": 384,
+              "total": 384,
+              "ce_sum": 0.686370275914669,
+              "free_correct": 384
+            },
+            {
+              "correct": 766,
+              "total": 768,
+              "ce_sum": 9.187238827347755,
+              "free_correct": 766
+            },
+            {
+              "correct": 1532,
+              "total": 1536,
+              "ce_sum": 11.894220381975174,
+              "free_correct": 1532
+            }
+          ]
+        },
+        "dev": {
+          "free": {
+            "n": 32,
+            "arithmetic_exact": 1,
+            "teacher_text_exact": 2,
+            "integer_parse": 31,
+            "valid_utf8": 32,
+            "nonpad_correct": 21,
+            "nonpad_total": 67,
+            "full_bytes_exact": 1
+          },
+          "teacher_forced": {
+            "n": 31,
+            "arithmetic_exact": 8,
+            "teacher_text_exact": 9,
+            "integer_parse": 30,
+            "valid_utf8": 31,
+            "nonpad_correct": 37,
+            "nonpad_total": 64,
+            "full_bytes_exact": 9
+          },
+          "reconstruction": {
+            "n": 31,
+            "arithmetic_exact": 30,
+            "teacher_text_exact": 31,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 64,
+            "nonpad_total": 64,
+            "full_bytes_exact": 31
+          },
+          "code_levels": [
+            {
+              "correct": 18,
+              "total": 31,
+              "ce_sum": 112.1149787902832,
+              "free_correct": 18
+            },
+            {
+              "correct": 40,
+              "total": 62,
+              "ce_sum": 143.61984252929688,
+              "free_correct": 40
+            },
+            {
+              "correct": 96,
+              "total": 124,
+              "ce_sum": 157.384765625,
+              "free_correct": 89
+            },
+            {
+              "correct": 203,
+              "total": 248,
+              "ce_sum": 210.24447631835938,
+              "free_correct": 169
+            }
+          ]
+        }
+      },
+      "wall_seconds": 2.2802694989950396
+    },
+    "supervised": {
+      "parameters_generator": 835520,
+      "parameters_codec": 199296,
+      "splits": {
+        "train": {
+          "free": {
+            "n": 192,
+            "arithmetic_exact": 33,
+            "teacher_text_exact": 32,
+            "integer_parse": 191,
+            "valid_utf8": 192,
+            "nonpad_correct": 190,
+            "nonpad_total": 424,
+            "full_bytes_exact": 33
+          },
+          "teacher_forced": {
+            "n": 192,
+            "arithmetic_exact": 124,
+            "teacher_text_exact": 124,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 355,
+            "nonpad_total": 425,
+            "full_bytes_exact": 124
+          },
+          "reconstruction": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "code_levels": [
+            {
+              "correct": 97,
+              "total": 192,
+              "ce_sum": 204.0247459411621,
+              "free_correct": 97
+            },
+            {
+              "correct": 321,
+              "total": 384,
+              "ce_sum": 200.57514572143555,
+              "free_correct": 315
+            },
+            {
+              "correct": 642,
+              "total": 768,
+              "ce_sum": 411.68145179748535,
+              "free_correct": 577
+            },
+            {
+              "correct": 1406,
+              "total": 1536,
+              "ce_sum": 469.10596084594727,
+              "free_correct": 1107
+            }
+          ]
+        },
+        "dev": {
+          "free": {
+            "n": 32,
+            "arithmetic_exact": 1,
+            "teacher_text_exact": 1,
+            "integer_parse": 32,
+            "valid_utf8": 32,
+            "nonpad_correct": 21,
+            "nonpad_total": 67,
+            "full_bytes_exact": 1
+          },
+          "teacher_forced": {
+            "n": 31,
+            "arithmetic_exact": 13,
+            "teacher_text_exact": 12,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 44,
+            "nonpad_total": 64,
+            "full_bytes_exact": 12
+          },
+          "reconstruction": {
+            "n": 31,
+            "arithmetic_exact": 30,
+            "teacher_text_exact": 31,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 64,
+            "nonpad_total": 64,
+            "full_bytes_exact": 31
+          },
+          "code_levels": [
+            {
+              "correct": 11,
+              "total": 31,
+              "ce_sum": 39.10960578918457,
+              "free_correct": 11
+            },
+            {
+              "correct": 42,
+              "total": 62,
+              "ce_sum": 81.33876419067383,
+              "free_correct": 42
+            },
+            {
+              "correct": 98,
+              "total": 124,
+              "ce_sum": 81.44696426391602,
+              "free_correct": 92
+            },
+            {
+              "correct": 212,
+              "total": 248,
+              "ce_sum": 120.66988754272461,
+              "free_correct": 174
+            }
+          ]
+        }
+      },
+      "wall_seconds": 2.337127964012325
+    },
+    "untrained": {
+      "parameters_generator": 835520,
+      "parameters_codec": 199296,
+      "splits": {
+        "train": {
+          "free": {
+            "n": 192,
+            "arithmetic_exact": 0,
+            "teacher_text_exact": 0,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 74,
+            "nonpad_total": 424,
+            "full_bytes_exact": 0
+          },
+          "teacher_forced": {
+            "n": 192,
+            "arithmetic_exact": 0,
+            "teacher_text_exact": 0,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 75,
+            "nonpad_total": 425,
+            "full_bytes_exact": 0
+          },
+          "reconstruction": {
+            "n": 192,
+            "arithmetic_exact": 186,
+            "teacher_text_exact": 192,
+            "integer_parse": 192,
+            "valid_utf8": 192,
+            "nonpad_correct": 425,
+            "nonpad_total": 425,
+            "full_bytes_exact": 192
+          },
+          "code_levels": [
+            {
+              "correct": 0,
+              "total": 192,
+              "ce_sum": 874.144416809082,
+              "free_correct": 0
+            },
+            {
+              "correct": 0,
+              "total": 384,
+              "ce_sum": 1572.7051162719727,
+              "free_correct": 0
+            },
+            {
+              "correct": 10,
+              "total": 768,
+              "ce_sum": 3288.8746948242188,
+              "free_correct": 10
+            },
+            {
+              "correct": 0,
+              "total": 1536,
+              "ce_sum": 6645.049743652344,
+              "free_correct": 0
+            }
+          ]
+        },
+        "dev": {
+          "free": {
+            "n": 32,
+            "arithmetic_exact": 0,
+            "teacher_text_exact": 0,
+            "integer_parse": 32,
+            "valid_utf8": 32,
+            "nonpad_correct": 10,
+            "nonpad_total": 67,
+            "full_bytes_exact": 0
+          },
+          "teacher_forced": {
+            "n": 31,
+            "arithmetic_exact": 0,
+            "teacher_text_exact": 0,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 9,
+            "nonpad_total": 64,
+            "full_bytes_exact": 0
+          },
+          "reconstruction": {
+            "n": 31,
+            "arithmetic_exact": 30,
+            "teacher_text_exact": 31,
+            "integer_parse": 31,
+            "valid_utf8": 31,
+            "nonpad_correct": 64,
+            "nonpad_total": 64,
+            "full_bytes_exact": 31
+          },
+          "code_levels": [
+            {
+              "correct": 0,
+              "total": 31,
+              "ce_sum": 144.19510650634766,
+              "free_correct": 0
+            },
+            {
+              "correct": 0,
+              "total": 62,
+              "ce_sum": 259.6570587158203,
+              "free_correct": 0
+            },
+            {
+              "correct": 1,
+              "total": 124,
+              "ce_sum": 535.4154052734375,
+              "free_correct": 1
+            },
+            {
+              "correct": 0,
+              "total": 248,
+              "ce_sum": 1071.0508422851562,
+              "free_correct": 0
+            }
+          ]
+        }
+      },
+      "wall_seconds": 2.4227273729920853
+    }
+  },
+  "checks": {
+    "frozen_hashes_unchanged": true,
+    "st_matches_official": true,
+    "batch1_matches_batch16": true,
+    "test_opened": false
+  },
+  "metric_references": {
+    "free": "answer exact arithmetic, all rows; teacher_text_exact independently compares teacher_target",
+    "teacher_forced": "teacher_target, kd_usable only",
+    "reconstruction": "teacher_target, kd_usable only"
+  },
+  "cost": {
+    "wall_seconds": 12.12029569101287,
+    "cpu_seconds": 24.136366076,
+    "peak_rss_kib": 372504,
+    "swap_sampling": {
+      "peak_swap_kib": 0,
+      "samples": 61
+    },
+    "threads": 2,
+    "training_steps": 0,
+    "train_samples": 192,
+    "dev_samples": 32,
+    "prompt_byte_positions": 71680,
+    "output_byte_positions": 8960
+  }
+}

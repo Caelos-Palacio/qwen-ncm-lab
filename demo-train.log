@@ -1,0 +1,5 @@
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+{"text": "390", "valid_utf8": true, "codes": [[61, 52, 21, 53, 55, 24, 32, 13, 20, 38, 10, 54, 11, 59, 61]], "seconds": 0.020343826996395364, "steps": 4}

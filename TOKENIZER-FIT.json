@@ -1,0 +1,41 @@
+{
+  "history": [
+    {
+      "step": 100,
+      "loss": 4.549862861633301,
+      "dev_reconstruction_exact": 1.0,
+      "dev_nonpad_char": 1.0
+    },
+    {
+      "step": 200,
+      "loss": 0.36203983426094055,
+      "dev_reconstruction_exact": 1.0,
+      "dev_nonpad_char": 1.0
+    },
+    {
+      "step": 300,
+      "loss": 0.4140191078186035,
+      "dev_reconstruction_exact": 1.0,
+      "dev_nonpad_char": 1.0
+    },
+    {
+      "step": 400,
+      "loss": 0.380447655916214,
+      "dev_reconstruction_exact": 1.0,
+      "dev_nonpad_char": 1.0
+    }
+  ],
+  "wall_seconds": 7.735305428999709,
+  "cpu_seconds": 13.169719438000001,
+  "parameters": 199296,
+  "train_samples": 192,
+  "train_steps": 400,
+  "train_examples_seen": 12800,
+  "train_byte_positions_seen": 102400,
+  "process_peak_rss_kib": 351200,
+  "rejected_kd": [],
+  "rejected_dev_kd": [
+    "+:3:27"
+  ],
+  "selection": "maximum DEV exact reconstruction; earliest tie"
+}

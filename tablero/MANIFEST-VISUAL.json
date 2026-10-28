@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-20T16:17:17.595399+00:00",
+  "scope": "Presentation only; does not modify closed experiments or their manifest. No rendered browser verification.",
+  "files": {
+    "DESIGN.md": {
+      "sha256": "fea279f2b7cac50fb65875669d1a91a6a939685b905408b1288c4efcba80146f",
+      "bytes": 919
+    },
+    "LEEME.md": {
+      "sha256": "f4d2db980f05a508ea0f88af7a26b50db60790de727af8c213ebf5958a15fbd6",
+      "bytes": 2150
+    },
+    "VERIFICACION-ESTATICA.json": {
+      "sha256": "1e9ea41be5aa17cea5b4975c0e2e3ae782711d5d95977aee3561c74d751f122a",
+      "bytes": 291
+    },
+    "VERIFICACION-LOGICA.json": {
+      "sha256": "2e74b65535ca94a47dd5e83b0ed6388fe6db863a3d056afd8b499e4174de4e30",
+      "bytes": 692
+    },
+    "index.html": {
+      "sha256": "021f7236025f6fa077427be47b3a2f857324b0de6e2bd19fd493a1e129f606e7",
+      "bytes": 44209
+    },
+    "revision/REVISION-CONTENIDO.md": {
+      "sha256": "3fb965b2274d3104b63978c73cba282ef871703a659a133c5e3169009f3df296",
+      "bytes": 4384
+    },
+    "verificar.cjs": {
+      "sha256": "25b7452e3281d8d2ab8b2369059db96f4723f11482f9d45c6a8df00e3f7680f5",
+      "bytes": 4381
+    }
+  }
+}

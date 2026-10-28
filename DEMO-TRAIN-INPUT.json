@@ -1,0 +1,7 @@
+{
+  "split": "train",
+  "id": "*:15:26",
+  "prompt": "Compute 15 * 26. Integer only.",
+  "reference": "390",
+  "scope": "CLI usability; not heldout evidence"
+}

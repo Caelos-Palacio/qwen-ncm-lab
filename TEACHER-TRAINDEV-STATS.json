@@ -1,0 +1,12 @@
+{
+  "train": {
+    "n": 192,
+    "admitted": 192,
+    "teacher_correct": 186
+  },
+  "dev": {
+    "n": 32,
+    "admitted": 31,
+    "teacher_correct": 30
+  }
+}

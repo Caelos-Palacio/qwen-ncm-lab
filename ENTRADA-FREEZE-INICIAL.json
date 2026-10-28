@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-20T15:47:49.464872+00:00",
+  "files": {
+    "PROTOCOLO.json": "3991828991e9cc9b5c178403fe0868aaabfc371b0af15add5b66ca949cfbdbbc",
+    "PROTOCOLO.md": "9ea53c0c1ea46116d9366a67a2b6dea711ef1ece0ae4c85fcce36d7ffae266af",
+    "data/dev.json": "05bc1d46e3c32fc5ac42edf0fbdd552d750aea5ecfca30dd61d4017d504564e9",
+    "data/test.json": "18ce4adf30eb2ba3917bd3a83d36fd28b94a51f14d16e671cb6b1d0ea0ae52fa",
+    "data/train.json": "96fac9a72cb1f309bbf4a910935d05a3c63aa5b6419a38487072059c77e2b924"
+  },
+  "teacher_started": false,
+  "training_started": false
+}

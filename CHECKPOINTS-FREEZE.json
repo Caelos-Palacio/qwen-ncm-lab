@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-20T16:04:13.386352+00:00",
+  "files": {
+    "tokenizer.pt": "41e8b6bfb19eaff672d982cd227f9279b66e22c69c958d13774d1305f8b1c4f1",
+    "kd.pt": "703549207259c1c829fbea7049f6333cae6eaf1741fa4070f58c2c59167df16c",
+    "supervised.pt": "715ed38b6e041fa46a3448212f6f5aebd33c3272d9988452c42bd81f158250dc",
+    "untrained.pt": "fae45fa9eb91641f13c6d4ea1849d3189baa9040073162d2f28c244dc5e41343",
+    "joint.pt": "a6a73e9d6514cfa8f56577cb78a21f287737732bfdbc4ef28ea44208a15a244d",
+    "continued.pt": "bc43f0d034dd6298644de94b598d22bd0fdfbdfed2c1b3f907841fe73d9a750e",
+    "PROTOCOLO.json": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+    "PROTOCOLO.md": "16b9a7dbf68194bf32e8cead7d526b8fead3a2236ec5f0fb14afe460f22b4394",
+    "modelo.py": "2a5af84edeaafba7f49f4c39fef5e37aa4916c97257862be0ea387d1a51ff479",
+    "train.py": "462a2fa29e92124e204e38385e15e44ad7c5099ed97dc91c63e13f0e200de7f0",
+    "teacher.py": "4d7fa9059e3071b1d527debdb77667f71b7bc5c71212f89a9321f6c5e87c03ed",
+    "evaluar.py": "900ee339a135ccf1ae05780471d3e9af96e07d988551764e73ed682a6eb557fd",
+    "inferir.py": "83245f6f1a51b09ebd56247a158f7702af60d3836472339b845677896424f37d",
+    "joint.py": "9988173c81454afea6d79d9bb584588f032698e6b1651d83057f83d2f0f626d4",
+    "continuar_joint.py": "ed58e8f2d7bb67d1c8c97e7f131fccd42b574a4d062723600426e74bc6ad38c5",
+    "data/train.json": "96fac9a72cb1f309bbf4a910935d05a3c63aa5b6419a38487072059c77e2b924",
+    "data/dev.json": "05bc1d46e3c32fc5ac42edf0fbdd552d750aea5ecfca30dd61d4017d504564e9",
+    "data/test.json": "18ce4adf30eb2ba3917bd3a83d36fd28b94a51f14d16e671cb6b1d0ea0ae52fa"
+  },
+  "test_teacher_obtained": false,
+  "test_used_for_selection": false,
+  "supervised_status": "exploratory checkpoint200; interrupted partial run, unequal budget",
+  "partial_run_cost_file": "PARADA-PLANIFICADA.json"
+}

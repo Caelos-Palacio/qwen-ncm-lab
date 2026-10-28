@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-20T15:39:51.723259+00:00",
+  "python": "3.14.4",
+  "modules": {
+    "numpy": true,
+    "scipy": true,
+    "torch": false,
+    "jax": false,
+    "safetensors": false
+  },
+  "definition_NCM_found": false,
+  "architecture_selected": false,
+  "training_started": false,
+  "capture_inventory": {
+    "TRAIN": {
+      "path": "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda16/evaluacion/CAPTURE-TRAIN.json",
+      "sha256": "caaa4491617a995dd8883a8ecf4f7b8a0b79efd7232849b797881a682d23a1c7",
+      "documents": 8,
+      "samples": 24,
+      "slot_shapes": [
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ]
+      ],
+      "all_finite_and_width_1024": true
+    },
+    "DEV": {
+      "path": "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda16/evaluacion/CAPTURE-DEV.json",
+      "sha256": "4d3063d65c1e86e72f13ebc39786e5711cf1a0e3cc717c5862c3f844de3bb4e0",
+      "documents": 3,
+      "samples": 6,
+      "slot_shapes": [
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ],
+        [
+          16,
+          1024
+        ]
+      ],
+      "all_finite_and_width_1024": true
+    }
+  },
+  "train_dev_documents_disjoint": true,
+  "teacher_contract": {
+    "model_sha256": "37ae482d336108d23516fa35e8e0c4126688d81018b87178a18d752a1357814f",
+    "binary_sha256": "dfd54e314ed5af45bb43c6ac8a6d972ab43ec7292f28720537470c4d5d0eb086",
+    "source_sha256": "7aeae9d80861923a4438ba7c2aa365cb9a00726dc29cbfa59166517c0fd65724",
+    "context": 8192,
+    "raw_features": "last-token FFN21 before any injection; document-full and empty-document query; document slots from query-blind blocks",
+    "base_frozen": true,
+    "changes_after_capture_allowed_only_metadata": true
+  },
+  "resource_scope": "CPU only; no engine started; no large packages installed; PID namespace shows only own exec, cannot establish global stale-process status"
+}

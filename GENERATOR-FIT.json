@@ -1,0 +1,68 @@
+{
+  "kd": {
+    "history": [
+      {
+        "step": 200,
+        "train_loss": 0.6381638646125793,
+        "dev_free_exact": 0.0,
+        "dev_teacher_agreement": 0.0,
+        "dev_code_ce": 0.6991494297981262
+      },
+      {
+        "step": 400,
+        "train_loss": 0.1305243819952011,
+        "dev_free_exact": 0.0,
+        "dev_teacher_agreement": 0.03125,
+        "dev_code_ce": 0.9353877902030945
+      },
+      {
+        "step": 600,
+        "train_loss": 0.0524931326508522,
+        "dev_free_exact": 0.0,
+        "dev_teacher_agreement": 0.03125,
+        "dev_code_ce": 1.0657891035079956
+      },
+      {
+        "step": 800,
+        "train_loss": 0.024357838556170464,
+        "dev_free_exact": 0.03125,
+        "dev_teacher_agreement": 0.0625,
+        "dev_code_ce": 1.261831283569336
+      },
+      {
+        "step": 1000,
+        "train_loss": 0.037070807069540024,
+        "dev_free_exact": 0.0,
+        "dev_teacher_agreement": 0.03125,
+        "dev_code_ce": 1.403643250465393
+      },
+      {
+        "step": 1200,
+        "train_loss": 0.02073700912296772,
+        "dev_free_exact": 0.0,
+        "dev_teacher_agreement": 0.03125,
+        "dev_code_ce": 1.4286054372787476
+      },
+      {
+        "step": 1400,
+        "train_loss": 0.021463947370648384,
+        "dev_free_exact": 0.03125,
+        "dev_teacher_agreement": 0.0625,
+        "dev_code_ce": 1.520527720451355
+      }
+    ],
+    "wall_seconds": 263.3448351919942,
+    "cpu_seconds": 526.50151894,
+    "parameters": 835520,
+    "train_samples": 192,
+    "target": "teacher_target",
+    "best_dev_exact": 0.03125,
+    "selection": "max DEV free generation exact arithmetic; tie lower DEV code CE",
+    "training_steps": 1400,
+    "max_training_steps": 3000,
+    "train_examples_seen": 44800,
+    "train_code_positions_seen": 672000,
+    "early_stopping": "minimum600steps,patience3 DEV exact evaluations every200; tieCE selects checkpoint but does not reset exact plateau",
+    "process_peak_rss_kib": 534292
+  }
+}

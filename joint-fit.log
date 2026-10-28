@@ -1,0 +1,17 @@
+VQVAE, Total parameter count: 0.20M
+VQVAE, Non embedding parameter count: 0.18M
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+joint {'step': 100, 'train_total_loss': 0.03402470052242279, 'train_text_ce': 0.03289531543850899, 'train_code_ce': 0.004517547786235809, 'dev_free_exact': 0.0}
+joint {'step': 200, 'train_total_loss': 0.005431718192994595, 'train_text_ce': 0.0042192707769572735, 'train_code_ce': 0.004849789664149284, 'dev_free_exact': 0.0}
+joint {'step': 300, 'train_total_loss': 0.00682558910921216, 'train_text_ce': 0.005696137435734272, 'train_code_ce': 0.00451780715957284, 'dev_free_exact': 0.0}
+joint {'step': 400, 'train_total_loss': 0.004306766204535961, 'train_text_ce': 0.003701940178871155, 'train_code_ce': 0.0024193034041672945, 'dev_free_exact': 0.03125}
+joint {'step': 500, 'train_total_loss': 0.00392799312248826, 'train_text_ce': 0.0032915438059717417, 'train_code_ce': 0.0025457977317273617, 'dev_free_exact': 0.0}
+NCP Transformer, Total parameter count: 0.84M
+NCP Transformer, Non embedding parameter count: 0.83M
+continued {'step': 100, 'train_total_loss': 0.08485560864210129, 'train_text_ce': 0.07876070588827133, 'train_code_ce': 0.024379609152674675, 'dev_free_exact': 0.0}
+continued {'step': 200, 'train_total_loss': 0.013248899951577187, 'train_text_ce': 0.012616543099284172, 'train_code_ce': 0.00252942880615592, 'dev_free_exact': 0.03125}
+continued {'step': 300, 'train_total_loss': 0.018698351457715034, 'train_text_ce': 0.01790805533528328, 'train_code_ce': 0.0031611877493560314, 'dev_free_exact': 0.0}
+continued {'step': 400, 'train_total_loss': 0.016059326007962227, 'train_text_ce': 0.015452149324119091, 'train_code_ce': 0.0024287081323564053, 'dev_free_exact': 0.0}
+continued {'step': 500, 'train_total_loss': 0.018288156017661095, 'train_text_ce': 0.017093639820814133, 'train_code_ce': 0.004778062459081411, 'dev_free_exact': 0.03125}
+ALL CHECKPOINTS FROZEN

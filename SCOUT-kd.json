@@ -1,0 +1,8 @@
+{
+  "actual_steps": 50,
+  "included_in_budget": true,
+  "wall_seconds": 9.51622468198184,
+  "cpu_seconds": 19.028888909,
+  "projected_3000_seconds": 570.9738215385005,
+  "process_peak_rss_kib": 523460
+}

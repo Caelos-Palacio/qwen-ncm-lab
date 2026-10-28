@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-20T15:42:09.275507+00:00",
+  "definition": "Next-Concept Modeling, HazyResearch/ncm",
+  "upstream_commit": "c70274273f489abc73832b2b98584a8483b6b203",
+  "paper": "https://arxiv.org/abs/2610.14162",
+  "license": "MIT",
+  "task": "integer arithmetic +,-,* operands0..30; experimental restricted model, not Qwen replacement",
+  "samples": {
+    "train": 192,
+    "dev": 32,
+    "test": 64
+  },
+  "split_unit": "operation + operand pair, commutative mirror deduplicated; deterministic SHA256 NCM170020; no pair overlap",
+  "test_strata": "first32 same template, last32 entirely unseen template",
+  "teacher": "original Qwen3.5-0.8B-Q8_0, temp0,max_new8; raw outputs retained; strict full integer parse; only parsed integer outputs fitting8UTF8bytes admitted to KD; rejects counted with IDs; never replace teacher mistakes with truth; baseline supervised uses same admitted TRAIN IDs",
+  "tokenizer": {
+    "vocab": 257,
+    "pad": 256,
+    "context": 8,
+    "dimension": 64,
+    "levels": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "codebook_sizes": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "steps_limit": 1500,
+    "loss": "CE reconstruction+officialVQ commitment, official nested dropout"
+  },
+  "generator": {
+    "dimension": 128,
+    "layers": 4,
+    "heads": 4,
+    "prefix_bytes": 64,
+    "steps_limit": 3000,
+    "seed": 170020,
+    "train_batch": 32,
+    "threads": 2,
+    "loss": "per-level mean CE; true codes only as targets; previous cumulative codes as conditioning",
+    "selection": "DEV free generation exact integer, tie lower CE; no TEST teacher until generator checkpoint frozen"
+  },
+  "baselines": [
+    "same architecture trained exact arithmetic reference without KD",
+    "untrained generator",
+    "nearest TRAIN prompt response"
+  ],
+  "status": "frozen before teacher extraction and all training",
+  "dev_policy": "reconstruction and code CE only valid fitting teacher targets for KD, all32DEV questions remain in free arithmetic accuracy; rejected counts reported; TEST never used for selection",
+  "project_root": "/home/carlos/qwen-ncm-lab",
+  "phase": "0 arithmetic sequence KD +0.1 joint ST adaptation",
+  "continue_criteria": {
+    "dev_nonpad_reconstruction_min": 0.95,
+    "finite_numerics": true,
+    "free_generation_without_target_codes": true,
+    "learning_evidence": "student free generation should beat untrained and nearest TRAIN; otherwise learning not demonstrated"
+  },
+  "instrumentation": "ejecutar_fase.py sampled process-tree RSS/swap .2s; CPU child rusage; wall perf_counter; phase logs JSONL; no parallel heavy jobs",
+  "joint": {
+    "steps_limit": 500,
+    "batch": 16,
+    "lr": 0.0001,
+    "start": "same frozen selected KD checkpoint for joint and continued",
+    "trainable_joint": "generator + VQVAE Transformer decoder",
+    "frozen": "encoder+codebooks+quant_resi",
+    "control": "continued generator, decoder frozen, same500steps and minibatchseed; CPU cost differs",
+    "rollout": "4 own predicted scales; hard argmax forward/softmax backward ST; no target codes in text forward",
+    "loss": "text CE +0.25 per-level code CE aux; labels from frozen encoder/books",
+    "gradient_checks": "generator>0, decoder>0 joint, encoder=codebook=0; hard forward equals official inference",
+    "selection": "DEV free generation exact, tie train loss; no TEST"
+  },
+  "efficiency": {
+    "tokenizer_early_stop": "100%DEV exact after>=400steps OR no exact improvement4checks at100step intervals after>=400steps",
+    "generator_early_stop": "no exactDEV improvement3checks every200steps,minimum600steps,max3000",
+    "scout": "first50steps counted in each total; CPU/wall/RSS and projection saved",
+    "caches": "teacher append-only raw; frozenRVQcodes and prefixembeddings once per trainingcondition; joint codes once; learned queries never detached",
+    "threads": 2,
+    "teacher_max_new": 8
+  },
+  "amendment_utc": "2026-10-20T15:50:52.537176+00:00",
+  "amendment_reason": "User requested joint generator+Transformer decoder and efficient process before FIT. Teacher arithmetic prompts/splits unchanged.",
+  "operational_amendment": {
+    "utc": "2026-10-20T15:58:50.334605+00:00",
+    "reason": "USER_PROCESS_EFFICIENCY",
+    "supervised": "retain already saved200-step checkpoint as exploratory unequal-budget control; full condition cancelled",
+    "kd": "closed1400steps by prospective DEV plateau",
+    "joint_runner": "continuar_joint.py",
+    "test_opened": false
+  }
+}

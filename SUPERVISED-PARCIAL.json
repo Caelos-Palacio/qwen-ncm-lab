@@ -1,0 +1,21 @@
+{
+  "status": "exploratory unequal budget; no further training",
+  "selected_checkpoint_step": 200,
+  "actual_updates_bounds": [
+    200,
+    399
+  ],
+  "actual_updates_exact": null,
+  "history": [
+    {
+      "step": 200,
+      "train_loss": 0.6867771148681641,
+      "dev_free_exact": 0.03125,
+      "dev_teacher_agreement": 0.03125,
+      "dev_code_ce": 0.6886816620826721
+    }
+  ],
+  "time_since_KD_boundary_seconds": 63.89296269416809,
+  "cost_in_fit_run": true,
+  "warning": "elapsed includes model setup; CPU residual not solely attributable; never zero cost"
+}

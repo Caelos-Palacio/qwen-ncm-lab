@@ -1,0 +1,33 @@
+{
+  "phase": "demo",
+  "started_utc": "2026-10-20T16:05:48.475661+00:00",
+  "ended_utc": "2026-10-20T16:05:50.884470+00:00",
+  "command": [
+    "/home/carlos/qwen3.5-0.8b/laboratorio-cognitivo/ronda17/ncm/.venv/bin/python",
+    "/home/carlos/qwen-ncm-lab/inferir.py",
+    "Compute 7 + 9. Integer only.",
+    "--model",
+    "joint"
+  ],
+  "return_code": 0,
+  "wall_seconds": 2.40896254798281,
+  "child_user_cpu_seconds": 2.157015,
+  "child_system_cpu_seconds": 0.243888,
+  "child_peak_rss_kib_rusage": 293240,
+  "sampled_tree_peak_rss_kib": 293612,
+  "sampled_tree_peak_swap_kib": 0,
+  "rss_sampling_seconds": 0.2,
+  "machine_before": {
+    "MemAvailable_kib": 1746772,
+    "SwapTotal_kib": 22238336,
+    "SwapFree_kib": 11271684
+  },
+  "machine_after": {
+    "MemAvailable_kib": 1743452,
+    "SwapTotal_kib": 22238336,
+    "SwapFree_kib": 11271804
+  },
+  "log": "/home/carlos/qwen-ncm-lab/demo.log",
+  "protocol_sha256": "cf2ea4af16445d670c635368544fd80411253b6b84e0dc91e6a71db3aa84417d",
+  "seed": 170020
+}
